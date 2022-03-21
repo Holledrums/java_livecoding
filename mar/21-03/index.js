@@ -78,10 +78,52 @@ Make your own JavaScript file and work from there. Open up your terminal in VS C
 
 // Console log a line of text eg. "this is an exercise in console logging" (do not forget quotation marks).
 
-// Declare a variable and give your variable the following value: "This is the value.". Console log your variable.
+console.log("this is an exercise in console logging");
 
+// Declare a variable and give your variable the following value: "This is the value.". Console log your variable.
+let longStr = "This is the value.";
+console.log(longStr);
 // Declare a variable called firstName and assign your first name to that variable. Do the same with your last name. Console log both variables. NOTE: When console logging two variables, separate the variables with a comma (,) in the console log e.g. console.log(variable1, variable2);
+let firstName = "Hadi";
+let lastName = "Nsreeny";
+console.log(firstName, lastName); 
+// camelCase firstName , BBQ first-name , snack_case first_name
+
 
 // Make a profile of someone's information. Store all the information in variables eg. name, city, job etc. (five variables total) Console log the variables.
+let firstAndLastName = "Steel";
+let city = "Paris";
+let job = "Teacher";
+let age = 31;
+let sex = "male";
+// console.log(firstAndLastName,city,job,age,sex);
+
 
 // Print a sentence using the profile variables above, adding text where necessary for sentence flow, i.e., "John Smith is a 43 year old teacher who lives in Berlin". you can combine variables with text in the console by using the plus symbol (+) e.g. console.log("this is a " + variable);
+console.log(`My name is ${firstAndLastName} ${age} years old, I live in ${city}. I'm ${job}`); 
+console.log("My name is ",firstAndLastName, " ", age ,"years old, I live in ", city , ". I'm ", job );
+
+// Declare a variable and assign a string as its value. Make sure the string is at least 6 characters long. Print the variable to the console.
+//            01234567891
+let string = "Nancy Schwarz";
+console.log(string);
+// Access the 2nd and 6th elements of the string using index notation. Print the elements to the console.
+console.log(string[9],string[10]);
+console.log(string[5])
+// Declare a variable called name and assign a string as its value.
+let myName = "Ali";
+
+// Declare a variable called age and assign a number as its value.
+let myAge = 99;
+
+// Declare a variable called year and assign a number as its value.
+let year = 2022; 
+
+// Using your declared variables, print a string to the console. For example, "Basem is 37 in 2020".
+console.log(myName,"is",myAge,"in",year); // old school
+console.log(`${myName} is ${myAge} in ${year}`);// ES6
+// Declare a variable called isMarried and assign it a boolean value.
+let isMarried = true;
+// Print a string to the console, indicating whether or not your person is married. For example, "Basem is married: true"
+console.log(myName,"is married:",isMarried); // old school
+console.log(`${myName} is married: ${isMarried}`);// ES6
