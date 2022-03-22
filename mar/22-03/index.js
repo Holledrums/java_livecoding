@@ -43,7 +43,7 @@ let firstHi = longStr.substring(0,2).toUpperCase();
 console.log(firstHi);
 let restOfStr = longStr.substring(2).toLowerCase();
 console.log(restOfStr);
-console.log(firstHi, restOfStr);
+console.log(firstHi + restOfStr);
 // Hadi   hadi  hADi hadI
 //            0123
 let myName = "haDI";
@@ -70,8 +70,44 @@ console.log(at);
 // 1. Declare a variable with the value of “I can walk in the park all day!“. Print the word “park” to the console.
 let strExtraOne = "I can walk in the park all day!";
 console.log(strExtraOne.substring(18,22));
+//  2. Declare a variable with the value of “Hello World”. Covert the value to upper case and print the converted value to the console.
+let hello = "Hello world";
+console.log(hello.toUpperCase());
+//  3. Declare another variable with the value of “Earthlings”. Convert the value to lower case and print the converted value to the console.
+let earth = "Earthlings";
+console.log(earth.toLowerCase());
+//  4. Declare a variable with the value “JavaScript”. Print the the characters “aSc” to the console using the substring() method.
+//        012345678
+let js = "JavaScript";
+console.log(js.substring(3,6));
+js = "Java";
+//  5. Check if the sentence “nice shoes” contains the letter l.
+let nice = "nice shoes";
+console.log(nice.includes("l"));
+//           3 , 4 , 5, 56 
+console.log(1+2,4,5,55+1);
 
-// 
+//  6. Create a new string from a given string with the first character of the given string added at the front and back. eg. of output: JavaScript => JJavaScriptJ.
+
+let javaScript = "JavaScript";
+ // let firstJavaChr = "J"; // hard code
+ let firstJavaChr = javaScript[0];
+ console.log(firstJavaChr+javaScript+firstJavaChr);
+console.log(javaScript[0]+javaScript+javaScript[0]);
+let myAge = 32;
+let myJob = "Teacher";
+let avatar = "😀"
+console.log(`
+Hey ${avatar}
+------------
+| I'm ${myName} |
+| I'm ${myAge}  |
+|  years old  |
+------------
+Likes Comments Share`);
+
+
+
 // toLocaleLowerCase()
 // toLowerCase()
 // warum length hat kein ()
