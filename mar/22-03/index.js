@@ -146,9 +146,24 @@ console.log(lastThreeChr);
 
 // Create 3 different variables about yourself, using strings as values, i.e, let firstName = "Maria"; let city = "Berlin", etc. Print a sentence to the console using the variables and string interpolation, i.e., "My name is Maria. I live in Berlin and I am a teacher".
 
+let hisFirstName = "Steel";
+let hisJob = "teacher";
+let hisCity = "London";
+console.log(`My name is ${hisFirstName}. I live in ${hisCity} and I am a ${hisJob}`);
 // Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 
+let fox = "the quick brown fox";
+//let foxFirstChr = fox[0];
+console.log(fox[0].toUpperCase()+fox.substring(1));
+
 // Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB
+// DRY : don't repeat yourself
+// Kiss : Keep it super simple
+let boogie = "BoogieWoogie";
+let firstBoogieChr = boogie[0];
+let lastBoogieChr = boogie[boogie.length -1];
+let finishedStr = boogie.substring(1,boogie.length -1);
+console.log(lastBoogieChr + finishedStr + firstBoogieChr);
 
 
 
