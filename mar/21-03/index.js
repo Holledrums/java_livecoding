@@ -127,3 +127,5 @@ let isMarried = true;
 // Print a string to the console, indicating whether or not your person is married. For example, "Basem is married: true"
 console.log(myName,"is married:",isMarried); // old school
 console.log(`${myName} is married: ${isMarried}`);// ES6
+
+
