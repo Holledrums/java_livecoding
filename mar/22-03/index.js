@@ -106,8 +106,44 @@ Hey ${avatar}
 ------------
 Likes Comments Share`);
 
+// trim()
+console.log(1+1);
+let herFirstName = "       Nancy        ";
+let herLastName = "Olga"
+// trimEnd()
+// trimStart()
+// trim()
+console.log(herFirstName.trimEnd() + " " + herLastName.trim());
+// + - =
+let strOne = "hi";
+let srtTwo = "I live in Berlin";
+
+let longStrOneAndTwo = strOne + " " + srtTwo +" "+ "And I like Summer.";
+console.log(longStrOneAndTwo);
+//strOne = strOne +  " I like Winter.";
+strOne += " I like Winter.";
+console.log(strOne);
 
 
+let num = 22;
+// num = num - 2;
+num -= 2; // 20
+console.log(num);
+// num = num - 1;
+num--;
+console.log(num);
+// num = num + 1;
+num++; // 20
+console.log(num);
+
+// 7. Create a new string from a given string, taking the last 3 characters of the string and add them to both the front and back of the new string. The string length must be 3 or more.
+// eg. of output: javascript => iptJavaScriptipt
+
+
+
+
+
+// 
 // toLocaleLowerCase()
 // toLowerCase()
 // warum length hat kein ()
