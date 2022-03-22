@@ -138,7 +138,17 @@ console.log(num);
 
 // 7. Create a new string from a given string, taking the last 3 characters of the string and add them to both the front and back of the new string. The string length must be 3 or more.
 // eg. of output: javascript => iptJavaScriptipt
+//                   0123456789
+let javaScriptTwo = "Long text";
+console.log(javaScriptTwo.length);
+let lastThreeChr = javaScriptTwo.substring( javaScriptTwo.length - 3);
+console.log(lastThreeChr);
 
+// Create 3 different variables about yourself, using strings as values, i.e, let firstName = "Maria"; let city = "Berlin", etc. Print a sentence to the console using the variables and string interpolation, i.e., "My name is Maria. I live in Berlin and I am a teacher".
+
+// Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
+
+// Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB
 
 
 
