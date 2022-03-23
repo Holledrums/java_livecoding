@@ -68,6 +68,16 @@ console.log(2 % 2 == 0 ? "30" : "Odd");
 console.log(1 % 2 == 0 ? "30" : "Odd");
 let number = 22;
 console.log(number % 2 == 0 ? `${number} is even`: `${number} is odd`);
+
+function oddOrEven (num){
+    console.log(num % 2 == 0 ? `${num} is even`: `${num} is odd`);
+}
+oddOrEven(100);
+oddOrEven(99);
+oddOrEven(54);
+
+
+
 // && || 
 
 // isNaN
