@@ -69,13 +69,32 @@ console.log(1 % 2 == 0 ? "30" : "Odd");
 let number = 22;
 console.log(number % 2 == 0 ? `${number} is even`: `${number} is odd`);
 
-function oddOrEven (num){
-    console.log(num % 2 == 0 ? `${num} is even`: `${num} is odd`);
+oddOrEven(100);
+
+function oddOrEven (userNum){
+    console.log(userNum % 2 == 0 ? `${userNum} is even`: `${userNum} is odd`);
 }
+// console.log(num); this is Global
 oddOrEven(100);
 oddOrEven(99);
 oddOrEven(54);
 
+// Declare a variable named isDog. If true, print 'pat, pat' and if not, print 'find me a dog to pat!'
+
+let isDog = true;
+console.log(isDog ? "pat, pat":"find me a dog to pat!");
+
+// Declare a variable named speedCheck. If speedlimit is 50km/h, and your speed is above that, print 'you're going too fast!'. If speed is lower than 50km/h, print 'You're driving below the speed limit, Oma'.
+
+let speedCheck = 50;
+let mySpeed = 50;
+
+console.log( mySpeed >= speedCheck ?"too fast":"Oma");
+
+//4. Declare a variable named isStudent. If true, print "Ticket costs €5,00". If false, print "Ticket costs €12,00".
+let isStudent = true;
+console.log(isStudent ? "Ticket costs €5,00":"Ticket costs €12,00")
+// if else
 
 
 // && || 
