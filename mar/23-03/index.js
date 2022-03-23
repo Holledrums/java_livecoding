@@ -98,7 +98,11 @@ console.log(isStudent ? "Ticket costs €5,00":"Ticket costs €12,00");
 let age = 60;
 console.log(age < 16 ? "serve butter beer":"serve beer");
 // if else
-
+/* if (bedingung) {
+    anweisung1 
+   } else {
+    anweisung2}
+    */
 /* if (frage) {
     true
 
@@ -106,14 +110,15 @@ console.log(age < 16 ? "serve butter beer":"serve beer");
     false
 }
 */
-let bool = null;
+let bool = "Nix";
 // 1 == true
 // 0 == false
 // full string == true
 // empty string == false
 // undefined == false
 // null == false
-
+// Object = true
+// Array == true
 if (bool){
     console.log("cool");
     console.log("This is amazing");
@@ -122,7 +127,7 @@ if (bool){
     console.log("I'm sorry");
 }
 
-
+// Check if two given integer values are in the range 50 to 99 (this includes both 50 and 99). Print true if either of them are in the range.
 // && || 
 
 // isNaN
