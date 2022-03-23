@@ -147,7 +147,15 @@ if( ((num1 >=50) && (num1 <=99)) || ( (num2 >=50) && (num2 <=99)) ){
 }
 
 //2. Check if three given integer values are in the range 50 to 99 (inclusive). Return true if one or more of them are in the said range.
+let num3 = 50;
+if( ((num1 >=50) && (num1 <=99)) || ( (num2 >=50) && (num2 <=99)) || ( (num3 >=50) && (num3 <=99)) ){
+    console.log("Nice");
+} else{
+    console.log("Not nice");
+}
+//4. Create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string.
 
+// let text = "Hadi" ->PyHadi
 
 // && 
 // true && true = true
