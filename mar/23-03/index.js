@@ -66,7 +66,7 @@ console.log(33 % 2 == 0 ? "30" : "Odd");
 console.log(40 % 2 == 0 ? "30" : "Odd");
 console.log(2 % 2 == 0 ? "30" : "Odd");
 console.log(1 % 2 == 0 ? "30" : "Odd");
-let number = 22
+let number = 22;
 console.log(number % 2 == 0 ? `${number} is even`: `${number} is odd`);
 // && || 
 
