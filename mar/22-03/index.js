@@ -169,8 +169,8 @@ console.log(lastBoogieChr + finishedStr + firstBoogieChr);
 
 
 // 
-// toLocaleLowerCase()
-// toLowerCase()
+// toLocaleLowerCase() vs  toLowerCase()
+
 // warum length hat kein ()
 
 
