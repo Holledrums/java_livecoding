@@ -155,7 +155,21 @@ if( ((num1 >=50) && (num1 <=99)) || ( (num2 >=50) && (num2 <=99)) || ( (num3 >=5
 }
 //4. Create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string.
 
-// let text = "Hadi" ->PyHadi
+// let text = "PyHadi" ->PyHadi
+// console.log("HadiPy".includes("Py"));
+//          012345
+let text = "Nancy";
+console.log(text.substring(0,2));
+if (text.substring(0,2) == "Py"){
+    console.log(text);
+    // noch more
+}else{
+    console.log("Py"+text);
+}
+console.log( text.substring(0,2) == "Py" ? text: "Py"+text);
+console.log(text.startsWith("Py") ? text : "Py"+text)
+
+//9. Calculate the sum of the two given integers. If the two values are same, then return triple their sum. 
 
 // && 
 // true && true = true
