@@ -126,9 +126,34 @@ if (bool){
     console.log("Noooo");
     console.log("I'm sorry");
 }
-
+console.log("------- Training --------");
 // Check if two given integer values are in the range 50 to 99 (this includes both 50 and 99). Print true if either of them are in the range.
-// && || 
+
+// Tip: 
+// and in Englisch 
+// && in JavaScript
+// || or in JavaScript
+let startOfRange = 50;
+let endOfRange = 99;
+let userFirstNum = 90;
+let userSecondNum = 1;
+// Kiss
+if (userFirstNum >= 50 && userFirstNum <= 90 || userSecondNum >= startOfRange && userSecondNum <= endOfRange  ){
+    console.log("Cool");
+} else {
+    console.log("Nooo");
+}
+
+// && 
+// true && true = true
+// false && true = fasle
+// true && false = fasle
+// false && false = fasle
+// || 
+// true || true = true
+// false || true = true
+// true || false = true
+// false || false = fasle
 
 // isNaN
 
