@@ -60,7 +60,7 @@ let isLogged  = false; // false || true
 console.log(isLogged ? "Cool": "Nooo");
 
 //2. Check if the following numbers are even numbers. Use a ternary and if the number is even print 30 is even, else print that it is odd.
-
+(33, 40, 2,1,22)
 // && || 
 
 // isNaN
