@@ -133,27 +133,32 @@ console.log("------- Training --------");
 // and in Englisch 
 // && in JavaScript
 // || or in JavaScript
-let startOfRange = 50;
-let endOfRange = 99;
-let userFirstNum = 90;
-let userSecondNum = 1;
+// let startOfRange = 50;
+// let endOfRange = 99;
+let num1 = 0.5;
+let num2 = 99;
+// range ist 50 bis 99
 // Kiss
-if (userFirstNum >= 50 && userFirstNum <= 90 || userSecondNum >= startOfRange && userSecondNum <= endOfRange  ){
-    console.log("Cool");
-} else {
-    console.log("Nooo");
+//if( firstNum check up || secondNum number check up )
+if( ((num1 >=50) && (num1 <=99)) || ( (num2 >=50) && (num2 <=99)) ){
+    console.log("Nice");
+} else{
+    console.log("Not nice");
 }
+
+//2. Check if three given integer values are in the range 50 to 99 (inclusive). Return true if one or more of them are in the said range.
+
 
 // && 
 // true && true = true
-// false && true = fasle
-// true && false = fasle
-// false && false = fasle
+// false && true = false
+// true && false = false
+// false && false = false
 // || 
 // true || true = true
 // false || true = true
 // true || false = true
-// false || false = fasle
+// false || false = false
 
 // isNaN
 
