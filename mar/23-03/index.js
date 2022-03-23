@@ -4,6 +4,7 @@
 // .trim()
 
 // Numbers
+
 // Conditional ternary Operator
 // condition ? true : false
 // Frage ? richtig : falsch
