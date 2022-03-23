@@ -93,8 +93,34 @@ console.log( mySpeed >= speedCheck ?"too fast":"Oma");
 
 //4. Declare a variable named isStudent. If true, print "Ticket costs €5,00". If false, print "Ticket costs €12,00".
 let isStudent = true;
-console.log(isStudent ? "Ticket costs €5,00":"Ticket costs €12,00")
+console.log(isStudent ? "Ticket costs €5,00":"Ticket costs €12,00");
+//3. Declare a variable named age. If age is below 16, print "serve butter beer". Otherwise print "serve beer".
+let age = 60;
+console.log(age < 16 ? "serve butter beer":"serve beer");
 // if else
+
+/* if (frage) {
+    true
+
+} else {
+    false
+}
+*/
+let bool = null;
+// 1 == true
+// 0 == false
+// full string == true
+// empty string == false
+// undefined == false
+// null == false
+
+if (bool){
+    console.log("cool");
+    console.log("This is amazing");
+}  else {
+    console.log("Noooo");
+    console.log("I'm sorry");
+}
 
 
 // && || 
