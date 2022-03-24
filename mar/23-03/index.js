@@ -170,6 +170,37 @@ console.log( text.substring(0,2) == "Py" ? text: "Py"+text);
 console.log(text.startsWith("Py") ? text : "Py"+text)
 
 //9. Calculate the sum of the two given integers. If the two values are same, then return triple their sum. 
+let firstNum = 1;
+let secondNum = 2;
+let sum = firstNum + secondNum;
+if( firstNum == secondNum ){
+    console.log((firstNum + secondNum) * 3 );
+} else{
+    console.log("Sorry they are not the same");
+}
+console.log(firstNum == secondNum ? (firstNum + secondNum) * 3: " Sorry they are not the same" );
+// isBigger, check if a given number bigger then 55, write that in function
+// check the following 55,4,2,51,2.2
+
+function isBigger (userNum){
+  return  userNum >= 55
+}
+function isBigger2 (userNum){
+      console.log(userNum >= 55)
+  }
+console.log(isBigger(55));
+console.log(isBigger(4));
+console.log(isBigger(2));
+console.log(isBigger(51));
+console.log(isBigger(2.2));
+isBigger2(23);
+isBigger2(65)
+
+
+console.log(typeof (1>=50));
+
+
+// BONUS CHALLENGE: Make a variable for firstName and age and give each variable values. Create an if/else statement to check whether the person's age is less than 13. If so, print "firstName is a child". If the age is equal to or more than 13 and less than 20, print "firstName is a teenager". If the person's age is equal to or more than 20 and less than 30, then print "firstName is a young adult". If none of these conditions apply, print "firstName is a adult".
 
 // && 
 // true && true = true
