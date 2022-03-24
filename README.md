@@ -9,5 +9,6 @@
 
 ## Class Topics
 
-   1. Go to the following link to find the PB topics with the dates:
-   ## [JavaScript](03-PB.md)
+1.  Go to the following link to find the PB topics with the dates:
+
+## [JavaScript](./PB.md)
