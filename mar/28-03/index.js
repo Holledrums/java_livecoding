@@ -108,6 +108,20 @@ for (let i = 3; i <= 15; ) {
 }
 console.log(str4);
 
+for (let i = 0; i <= 10; i++) {
+  // i = 1
+  console.log("Nice");
+  for (let j = 0; j <= 10; j++) {
+    // j = 0
+    console.log("Something");
+  }
+}
+for (let i = 1; i <= 10; i++) {
+  for (let j = 1; j <= 10; j++) {
+    console.log(`${i} * ${j} = ${i * j} `);
+  }
+  console.log("----------");
+}
 /*
 
 +
