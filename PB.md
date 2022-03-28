@@ -2,9 +2,9 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1                                      | day-2                                      | day-3                                      | day-4                                      |
-|-----------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
-| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs) | [22.03.](#2203-to-materialmar22-03indexjs) | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs) |
+| Month           | day-1                                      | day-2                                      | day-3                                      | day-4                                      | day-5                                      |
+|-----------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs) | [22.03.](#2203-to-materialmar22-03indexjs) | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs) | [28.03.](#2803-to-materialmar28-03indexjs) |
 ---
 ### March
 #### [21.03. to Material](./mar/21-03/index.js)
@@ -16,4 +16,5 @@ Here you can find all the links to materials related to the Programming Basic mo
 > Comparison operators (==, >=, <=, >, <). Conditional expressions: the ternary operator. "Number: using modulo, odd and even". Logical Thinking: Logical operators: (&&, ||). Using logic to solve problems.
 #### [24.03. to Material](./mar/24-03/index.js)
 > Number pitfalls(global function isNaN(). Converting strings into Numbers: parseInt(). Math object ( Rounding up with Math.ceil(), Rounding down with Math.floor(), Getting random numbers with Math.random(), Maximum and minimum with Math.max(), Math.min().
-
+#### [28.03. to Material](./mar/28-03/index.js)
+> Math object recap with examples. Number pitfalls: Very long numbers: "e", rounding errors, dealing with rounding errors: toFixed(). Number: Converting strings into Numbers using parseFloat(). Numerical Repetition: for loop, nesting for loop.
