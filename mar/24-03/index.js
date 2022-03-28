@@ -40,12 +40,3 @@ console.log(parseInt("1234 is cool"));
 // (16) 0123456789ABCDEF    -> C    F8
 
 console.log(parseInt("1AF0", 16));
-// Math object
-
-// Math.floor()
-
-// Math.ceil()
-
-// Math.max()
-
-// Math.min()
