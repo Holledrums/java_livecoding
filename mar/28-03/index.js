@@ -106,7 +106,13 @@ for (let i = 3; i <= 15; ) {
   str4 += `${i} `;
   i += 2;
 }
-console.log(str4);
+// 3 5 7 9 11 13 15
+let str11 = "";
+for (let i = 3; i <= 15; ) {
+  str4 += `${i} `;
+  i += 2;
+}
+console.log(str11);
 
 for (let i = 0; i <= 10; i++) {
   // i = 1
@@ -116,19 +122,63 @@ for (let i = 0; i <= 10; i++) {
     console.log("Something");
   }
 }
+// nested loops
 for (let i = 1; i <= 10; i++) {
+  // i = 1
+  console.log("----------");
   for (let j = 1; j <= 10; j++) {
     console.log(`${i} * ${j} = ${i * j} `);
   }
   console.log("----------");
 }
-/*
 
+// 0 1 2 3 0 1 2 3 0 1 2 3
+let str5 = "";
+for (let i = 0; i <= 2; i++) {
+  for (let j = 0; j <= 3; j++) {
+    str5 += `${j} `;
+  }
+}
+console.log(str5);
+// 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5
+let str6 = "";
+for (let i = 1; i <= 5; i++) {
+  for (let j = 13; j >= 10; j--) {
+    str6 += `${i} `;
+  }
+}
+console.log(str6);
+/*
+// this is one for
 +
 ++
 +++
 ++++
+*/
+// Number
+// Op 1
+for (let i = 0; i <= 3; i++) {
+  console.log("*".repeat(i));
+}
+// Op 2
+let starsShape = "";
+for (let i = 0; i <= 3; i++) {
+  starsShape += "*";
+  console.log(starsShape);
+}
+// Op 3
+let str55 = "";
+for (let i = 1; i <= 1; i++) {
+  for (let j = 1; j <= 4; j++) {
+    str55 += "+";
+    console.log(str55);
+  }
+}
+// Op 4
 
+// Op 5
+/*
+// this is other for
 ****
 ***
 **
@@ -137,5 +187,17 @@ for (let i = 1; i <= 10; i++) {
 
 
 */
-
+// Op 1
+for (let i = 3; i >= 0; i--) {
+  console.log("*".repeat(i));
+}
+// Op 2
+let starDownShape;
+for (let i = 3; i >= 0; i--) {
+  starDownShape = "";
+  for (let j = 0; j <= i; j++) {
+    starDownShape += "*";
+  }
+  console.log(starDownShape);
+}
 // Warum random gibt nur 0-1 ?
