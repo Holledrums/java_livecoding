@@ -64,6 +64,64 @@ console.log("Coo");
 // 10 * 2 = 20
 for (let i = 1; i <= 10; i++) {
   console.log(`${i} * 2 = ${i * 2} `);
+  //console.log(i, "👺 2 👻", i * 2);
 }
+let str = "";
+for (let i = 0; i <= 10; i++) {
+  str += `Nice ${i} `;
+}
+console.log(str);
+
+for (let i = 10; i >= 0; i--) {
+  console.log(i);
+}
+console.log("-------");
+for (let i = 1; i <= 10; ) {
+  console.log(i);
+  i += 2;
+}
+// 100 200 300 400 500 600 700 800 900 1000
+let str1 = "";
+for (let i = 100; i <= 1000; ) {
+  str1 += `${i} `;
+  i += 100;
+}
+console.log(str1);
+// 1 1 1 2 2 2 3 3 3 4 4 4
+let str2 = "";
+for (let i = 1; i <= 4; i++) {
+  str2 += `${i} ${i} ${i} `;
+}
+console.log(str2);
+// 0 2 4 6 8 10
+let str3 = "";
+for (let i = 0; i <= 10; ) {
+  str3 += `${i} `;
+  i += 2;
+}
+console.log(str3);
+// 3 6 9 12 15
+let str4 = "";
+for (let i = 3; i <= 15; ) {
+  str4 += `${i} `;
+  i += 2;
+}
+console.log(str4);
+
+/*
+
++
+++
++++
+++++
+
+****
+***
+**
+*
+
+
+
+*/
 
 // Warum random gibt nur 0-1 ?
