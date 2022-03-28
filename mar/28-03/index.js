@@ -200,4 +200,11 @@ for (let i = 3; i >= 0; i--) {
   }
   console.log(starDownShape);
 }
+// Op 3
+let starsWithSub = "****";
+for (let i = 0; i <= 3; i++) {
+  console.log(starsWithSub.substring(i));
+}
+// Op 4
+
 // Warum random gibt nur 0-1 ?
