@@ -141,3 +141,32 @@ function repeatIt(str, num) {
 }
 repeatIt("Ali", 5);
 repeatIt("Steel", 2);
+
+//  Word Ranking. Create a function that takes a string of words and returns the highest scoring word. Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3, etc.
+
+// The returned string should only contain alphabetic characters (a-z).
+// Preserve case in the returned string (see 4th example above).
+// Examples:
+
+// wordRank("The quick brown fox.") ➞ "brown"
+// wordRank("Nancy is very pretty.") ➞ "pretty"
+// wordRank("Check back tomorrow, man!") ➞ "tomorrow"
+// wordRank("Today is Wednesday.") ➞ "Wednesday"
+// split()
+// let newStr = "Nancy is very cool";
+// console.log(newStr.split(" "));
+
+function wordRank(str) {
+  let longestWord = "";
+  let strToArr = str.split(" ");
+  //   console.log(strToArr);
+  for (let i = 0; i < strToArr.length; i++) {
+    if (longestWord.length < strToArr[i].length) longestWord = strToArr[i];
+  }
+  return console.log(longestWord);
+}
+
+wordRank("Nancy is very cool something");
+wordRank("Today is Wednesday.");
+wordRank("Check back tomorrow, man!");
+wordRank("Nancy is very pretty.");
