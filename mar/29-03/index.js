@@ -182,10 +182,9 @@ function findGreatest(arr, num) {
   let str = "";
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > num) {
-      str += `${arr[i]} `;
+      str += `${arr[i]}${i == arr.length - 1 ? "" : ", "}`;
     }
   }
-
   return console.log(str);
 }
 findGreatest([2, 4, 6, 7], 5);
