@@ -224,11 +224,13 @@ console.log("sum :", sum);
 let text = "";
 for (let i = 1; i <= 5; i++) {
   console.log(
-    `There ${i == 1 ? "is bottle" : "are bottles"} of beer on the wall`
+    `There ${
+      i == 1 ? `is ${i} bottle` : `${i} are bottles`
+    } of beer on the wall`
   );
-  if (i == 1) {
-    console.log(`There is ${i} bottle of beer on the wall`);
-  } else {
-    console.log(`There are ${i}bottles of beer on the wall`);
-  }
+  //   if (i == 1) {
+  //     console.log(`There is ${i} bottle of beer on the wall`);
+  //   } else {
+  //     console.log(`There are ${i}bottles of beer on the wall`);
+  //   }
 }
