@@ -142,16 +142,13 @@ function repeatIt(str, num) {
 repeatIt("Ali", 5);
 repeatIt("Steel", 2);
 
-//  Word Ranking. Create a function that takes a string of words and returns the highest scoring word. Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3, etc.
-
-// The returned string should only contain alphabetic characters (a-z).
-// Preserve case in the returned string (see 4th example above).
-// Examples:
+//  Word Ranking. Create a function that takes a string of words and returns the highest scoring word.  letter
 
 // wordRank("The quick brown fox.") ➞ "brown"
 // wordRank("Nancy is very pretty.") ➞ "pretty"
 // wordRank("Check back tomorrow, man!") ➞ "tomorrow"
 // wordRank("Today is Wednesday.") ➞ "Wednesday"
+
 // split()
 // let newStr = "Nancy is very cool";
 // console.log(newStr.split(" "));
@@ -170,3 +167,36 @@ wordRank("Nancy is very cool something");
 wordRank("Today is Wednesday.");
 wordRank("Check back tomorrow, man!");
 wordRank("Nancy is very pretty.");
+
+// The Greater Numbers. Create a function which accepts two arguments: the first argument being an array of numbers, and the second argument being a number. The function should return the elements of the array which are greater than the second argument.
+
+// i.e.
+
+// findGreatest([3, 4, 5], 4) ➞ 5
+
+// findGreatest([10, 20, 30], 12) ➞ 20, 30
+
+// findGreatest([0, 10, 3], 4) ➞ 10
+
+function findGreatest(arr, num) {
+  let str = "";
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > num) {
+      str += `${arr[i]} `;
+    }
+  }
+
+  return console.log(str);
+}
+findGreatest([2, 4, 6, 7], 5);
+// . Dictionary. Create a function that takes an initial string and an array of words, and returns a filtered array of the words that start with the same letters as the initial string.
+
+// Notes:
+
+// If none of the words match, return an empty array.
+// Keep the filtered array in the same relative order as the original array of words.
+// Examples:
+
+// dictionary("bu", ["button", "breakfast", "border"]) ➞ ["button"]
+// dictionary("tri", ["triplet", "tries", "trip", "piano", "tree"]) ➞ ["triplet", "tries", trip"]
+// dictionary("beau", ["pastry", "delicious", "name", "boring"]) ➞ []
