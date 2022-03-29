@@ -1,3 +1,9 @@
 // splice()
 
 // slice()
+
+// split()
+
+// concat
+
+//

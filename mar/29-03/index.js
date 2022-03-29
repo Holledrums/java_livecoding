@@ -131,3 +131,13 @@ capitalizes(arr3);
 
 // Repeat it. Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array. Examples:
 // ("example", 3) ➞ ["example", "example", "example"]
+
+function repeatIt(str, num) {
+  let arr = [];
+  for (let i = 0; i < num; i++) {
+    arr[i] = str;
+  }
+  return console.table(arr);
+}
+repeatIt("Ali", 5);
+repeatIt("Steel", 2);
