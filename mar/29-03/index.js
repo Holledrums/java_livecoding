@@ -47,6 +47,25 @@ console.table(arr);
 // unshift && shift first index
 
 // reverse()
-const numbers = [1, 2, 3, 5, 6];
+const numbers = [1, 2, 3, 4, 5];
 numbers.reverse();
 console.log(numbers);
+
+// [Maria, Mike, Paul, Doven] ➞ expected output: "Hello Maria! Hello Mike! Hello Paul! Hello Doven!"
+const namesArr = ["Maria", "Mike", "Paul", "Doven"];
+// let namesLength = ;
+// console.log(namesLength);
+let str = "";
+for (let i = 0; i < namesArr.length; i++) {
+  str += `Hello ${namesArr[i]}! `;
+}
+console.log(str);
+// Bonus [Susan, Rezvane, Hadi] ➞ expected bonus output: "Susan is at index 0 of my friends and family array, Rezvane is at index 1 of my friends and family array, Hadi is at index 2 of my friends and family array".
+const friendsArr = ["Susan", "Rezvane", "Hadi"];
+let strFriends = "";
+for (let i = 0; i < friendsArr.length; i++) {
+  strFriends += `${friendsArr[i]} is at index ${i} of my friends and family array. `;
+}
+console.log(strFriends);
+// City Names. Create an array of city names. Loop through the array and add the city names to a string. Examples:
+// [Berlin, Paris, Prague, Rome] ➞ expected output: "Berlin, Paris, Prague, Rome"
