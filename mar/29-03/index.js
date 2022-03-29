@@ -60,11 +60,19 @@ for (let i = 0; i < namesArr.length; i++) {
   str += `Hello ${namesArr[i]}! `;
 }
 console.log(str);
-// Bonus [Susan, Rezvane, Hadi] ➞ expected bonus output: "Susan is at index 0 of my friends and family array, Rezvane is at index 1 of my friends and family array, Hadi is at index 2 of my friends and family array".
-const friendsArr = ["Susan", "Rezvane", "Hadi"];
+// Bonus [Susan, Rezvane, Hadi] ➞ expected bonus output: "Susan is at index 0 of my friends and family array, Rezvane is at index 1 of my friends and family array, Hadi is at index 2 of my friends and family array."
+// Susan is at index 0 of my friends and family array,
+// Rezvane is at index 1 of my friends and family array,
+//  Hadi is at index 2 of my friends and family array.
+//                  0        1         2
+const friendsArr = ["Susan", "Rezvane", "Hadi"]; // 3
 let strFriends = "";
 for (let i = 0; i < friendsArr.length; i++) {
-  strFriends += `${friendsArr[i]} is at index ${i} of my friends and family array. `;
+  strFriends += `${
+    friendsArr[i]
+  } is at index ${i} of my friends and family array ${
+    i == friendsArr.length - 1 ? "." : ","
+  } `;
 }
 console.log(strFriends);
 // City Names. Create an array of city names. Loop through the array and add the city names to a string. Examples:
