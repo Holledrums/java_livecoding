@@ -145,6 +145,9 @@ const dictionary = (str, arr) => {
   return console.log(resultArr);
 };
 
-dictionary("buto", ["button", "breakfast", "border"]);
+dictionary("bu", ["button", "breakfast", "border"]);
+dictionary("beau", ["pastry", "delicious", "name", "boring"]);
 
 // console.log("Hadi".substring(0, 2));
+
+// sumOfNumbers. Create a program that adds up the numbers in an array (of at least 3 numbers). Bonus: Print to screen both the sum and the product of these numbers.
