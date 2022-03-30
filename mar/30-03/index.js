@@ -71,7 +71,7 @@ console.log(cities);
 
 // Js {}
 // arr []
-// function ()
+// function, method ()
 
 // split()
 let str = "This is a long text";
@@ -89,18 +89,39 @@ console.log(text.join(" "));
 // toCamelCase("javascript_is_fun") ➞ "javascriptIsFun"
 // DRY
 function toCamelCase(str) {
-  let result = "";
+  //let result = "";
   let newArr = str.toLowerCase().split("_");
-  newArr[0] = newArr[0].toLowerCase();
+  // newArr[0] = newArr[0].toLowerCase();
   for (let i = 1; i < newArr.length; i++) {
     newArr[i] = newArr[i][0].toUpperCase() + newArr[i].substring(1); //.toLowerCase();
   }
-  result = newArr.join("");
-  return console.log(result);
+
+  return console.log(newArr.join(""));
 }
 toCamelCase("hello_world");
 toCamelCase("JAVascript_is_fun");
-// concat()
+// 2015  Es6
+// arrow function =>
+const toCamelCaseArrow = (str) => {
+  let newArr = str.toLowerCase().split("_");
+  for (let i = 1; i < newArr.length; i++) {
+    newArr[i] = newArr[i][0].toUpperCase() + newArr[i].substring(1); //.toLowerCase();
+  }
+  return console.log(newArr.join(""));
+};
+toCamelCaseArrow("ja_is_cool");
+// old school
+function sum(x, y) {
+  return x + y;
+}
+sum(2, 5);
+// Es6
+const sumArrow = (x, y) => x + y;
+//
+function display(str) {
+  return console.log(str);
+}
+const displayArrow = (str) => console.log(str);
 
 // . Dictionary. Create a function that takes an initial string and an array of words, and returns a filtered array of the words that start with the same letters as the initial string.
 
@@ -113,3 +134,17 @@ toCamelCase("JAVascript_is_fun");
 // dictionary("bu", ["button", "breakfast", "border"]) ➞ ["button"]
 // dictionary("tri", ["triplet", "tries", "trip", "piano", "tree"]) ➞ ["triplet", "tries", trip"]
 // dictionary("beau", ["pastry", "delicious", "name", "boring"]) ➞ []
+
+const dictionary = (str, arr) => {
+  let resultArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].substring(0, str.length) == str) {
+      resultArr.push(arr[i]);
+    }
+  }
+  return console.log(resultArr);
+};
+
+dictionary("buto", ["button", "breakfast", "border"]);
+
+// console.log("Hadi".substring(0, 2));
