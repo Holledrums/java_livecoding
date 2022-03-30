@@ -2,9 +2,9 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1                                      | day-2                                      | day-3                                      | day-4                                      | day-5                                      | day-6                                      |
-|-----------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
-| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs) | [22.03.](#2203-to-materialmar22-03indexjs) | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs) | [28.03.](#2803-to-materialmar28-03indexjs) | [29.03.](#2903-to-materialmar29-03indexjs) |
+| Month           | day-1                                      | day-2                                      | day-3                                      | day-4                                      | day-5                                      | day-6                                      | day-7                                      |
+|-----------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs) | [22.03.](#2203-to-materialmar22-03indexjs) | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs) | [28.03.](#2803-to-materialmar28-03indexjs) | [29.03.](#2903-to-materialmar29-03indexjs) | [30.03.](#3003-to-materialmar30-03indexjs) |
 ---
 ### March
 #### [21.03. to Material](./mar/21-03/index.js)
@@ -20,3 +20,6 @@ Here you can find all the links to materials related to the Programming Basic mo
 > Math object recap with examples. Number pitfalls: Very long numbers: "e", rounding errors, dealing with rounding errors: toFixed(). Number: Converting strings into Numbers using parseFloat(). Numerical Repetition: for loop, nesting for loop.
 #### [29.03. to Material](./mar/29-03/index.js)
 >Array: Assigning array literals, Accessing/Re-assigning array items with square brackets, array.length, array.indexOf(), array.lastIndexOf(), Array-Methods: push(), unshift(), pop(), shift(), reverse().
+
+#### [30.03. to Material](./mar/30-03/index.js)
+> Array() constructor to create Array objects. Array-Methods: splice(), slice(), join(). String-Method: split(). Functions declarations as values. Arrow function shorthand. Workshop: Using "figma" to design a car manufacturing project. Research exercise: What is an Algorithm?
