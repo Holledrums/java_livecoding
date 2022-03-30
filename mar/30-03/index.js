@@ -91,8 +91,7 @@ console.log(text.join(" "));
 function toCamelCase(str) {
   let result = "";
   let newArr = str.toLowerCase().split("_");
-  // console.log(newArr);
-  //   newArr[0] = newArr[0].toLowerCase();
+  newArr[0] = newArr[0].toLowerCase();
   for (let i = 1; i < newArr.length; i++) {
     newArr[i] = newArr[i][0].toUpperCase() + newArr[i].substring(1); //.toLowerCase();
   }
