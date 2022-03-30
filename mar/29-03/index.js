@@ -182,12 +182,14 @@ function findGreatest(arr, num) {
   let str = "";
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > num) {
-      str += `${arr[i]}${i == arr.length - 1 ? "" : ", "}`;
+      str += `${arr[i]}${i == arr.length - 1 ? "." : ", "}`;
     }
   }
   return console.log(str);
 }
 findGreatest([2, 4, 6, 7], 5);
+findGreatest([0, 10, 3], 4);
+findGreatest([10, 20, 30], 12);
 // . Dictionary. Create a function that takes an initial string and an array of words, and returns a filtered array of the words that start with the same letters as the initial string.
 
 // Notes:
