@@ -149,6 +149,82 @@ if (1 == 1 && 22 != 2 && 5 == 5 && 2 != 2) {
 }
 // condition ? true : false
 
-// Es6
+// 1- Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
+//     Example string : 'the quick brown fox'
+//     Expected Output : 'The Quick Brown Fox '
 
-// concat()
+// function,  one param,  toUpperCase(), split
+function converts(str) {
+  const strToArr = str.toLowerCase().split(" ");
+  console.table(strToArr);
+  for (let i = 0; i < strToArr.length; i++) {
+    strToArr[i] = strToArr[i][0].toUpperCase() + strToArr[i].substring(1);
+  }
+  // return am Montag 🤓
+  return console.log(strToArr.join(" "));
+}
+converts("the quick brown fox");
+// 2- Write a JavaScript function that accept a list of country names as input and returns the longest country name as output.
+//     longestCountryName(
+//         ["Australia",
+//         "Germany",
+//         "United States of America"]
+//         )
+//     Expected output : "United States of America"
+// function, array, length, loops, if/condition
+const longestCountryName = (arr) => {
+  let longestWord = "";
+  for (let i = 0; i < arr.length; i++) {
+    if (longestWord.length < arr[i].length) {
+      longestWord = arr[i];
+    }
+  }
+  return console.log(longestWord);
+};
+longestCountryName(["Australia", "Germany", "United States of America"]);
+longestCountryName(["Amsterdam", "Paris", "LA"]); //
+longestCountryName([" ", "NY", "LA"]);
+
+// Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
+// AEIOU
+// function, str als param, num = 0, vowel = "AEIOUaeiou", condition, loop
+// KISS
+const vowelCounter = (str) => {
+  let counter = 0;
+  const vowel = "AEIOUaeiou";
+  for (let i = 0; i < str.length; i++) {
+    // option 1
+    // if (vowel.includes(str[i])) { // true || false
+    //   counter++;
+    // }
+    // option 2
+    if (vowel.indexOf(str[i]) != -1) {
+      // -1 0 1 2 3 4 5
+      counter++;
+    }
+  }
+  return console.log(counter);
+};
+vowelCounter("this is super fun");
+vowelCounter("HADI");
+vowelCounter("This is really cool");
+console.log("Hadi".includes("T"));
+// Arrays
+const names = ["Ali", "Nancy", "Steel"];
+console.log(names[1]);
+names[1] = "Vivi";
+console.log(names);
+names.push("Alex");
+names.unshift("Hadi");
+console.log(names);
+names.pop();
+names.shift();
+console.table(names);
+
+// slice()
+console.log(names.slice(2));
+// splice()
+console.log(names.splice(2));
+console.log(names);
+let longText = "Today is very long day 😎";
+console.table(longText.split(""));
