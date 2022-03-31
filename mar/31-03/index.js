@@ -27,14 +27,16 @@ console.log("😇 Hadi §$%/() \" ' \n Oh this is fun ");
 console.log(` 😇 Hadi §$%/() \" ' 
 
 Oh this is fun`);
-let str = "I love Javascript";
+let str = "I love JAbvascript";
 console.log("str length:", str.length);
 console.log("str substring:", str.substring(2, 7)); //
 console.log("str UpperCase:", str.toUpperCase());
 console.log("str LowerCase:", str.toLowerCase());
 console.log("str substring + UpperCase :", str.toUpperCase().substring(5));
-console.log("str [8]:", str[8]);
-console.log("str charAr(8):", str.charAt(8));
+console.log("str [8]:", str[8]); // a
+console.log("str charAr(8):", str.charAt(8)); // a
+// UTF-16
+// 🫣
 console.log("str charCodeAr(8):", str.charCodeAt(8));
 if (true) {
   // something
