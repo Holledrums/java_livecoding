@@ -79,7 +79,7 @@ if (false) {
 } else {
   // last thing
 }
-let age = 40;
+let age = 30;
 switch (age) {
   case 2:
     console.log("You are baby");
@@ -93,6 +93,59 @@ switch (age) {
   case 30:
     console.log("You are man");
     break;
+  default:
+    console.log("Sorry, please write your age");
+}
+
+let driveAllowed = 5;
+switch (driveAllowed) {
+  case 15:
+    console.log("🛵");
+    break;
+  case 17:
+    console.log("🚓");
+    break;
+  case 18:
+    console.log("🏎");
+    break;
+  case 21:
+    console.log("🏍");
+    break;
+  default:
+    console.log("Sorry, stay home or take a 🚲 ");
+}
+let userName = "Steel";
+switch (userName) {
+  case "steel":
+    console.log("ou are the best");
+    break;
+  case "Olga":
+    console.log("You are cool");
+    break;
+  case "Nancy":
+    console.log("You are nice");
+    break;
+  case "Ali":
+    console.log("You are sleepy");
+    break;
+  default:
+    console.log("Sorry, You are not human  ");
+}
+// and &&
+// true && false => false
+// false && true => false
+// false && false => false
+// true && true => true
+//  or ||
+// true || false => true
+// false || true => true
+// false || false => false
+// true || true => true
+//
+if (1 == 1 && 22 != 2 && 5 == 5 && 2 != 2) {
+  console.log("And OR:", "cool");
+} else {
+  console.log("And OR:", "Nooo");
 }
 // condition ? true : false
 
