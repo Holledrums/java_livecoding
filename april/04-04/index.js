@@ -1,8 +1,11 @@
+// Js methods from Math(.max , .min  , .floor , .ceil ,random )
+// Js methods for str (.trim , .length , .includes , .split , .toUpperCase , .toLowerCase)
+
 // concat()
 
-// Es6
-
 // functions
+
+// Es6
 
 // Function arguments
 
