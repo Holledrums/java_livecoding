@@ -41,3 +41,7 @@
 // takes 4 arguments: number of children, partner's name, geographic location, job title.
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments
+
+//  Write a JavaScript function that generates a string passing a specified length of random characters. AKA password generator
+// use the following chrList
+let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
