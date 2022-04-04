@@ -11,7 +11,7 @@
 
 // default argument
 
-// man arguments
+// many arguments
 
 // read user input 😎
 
