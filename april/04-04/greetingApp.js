@@ -1,6 +1,8 @@
 const userData = process.argv.splice(2);
-function greeting(name) {
-  return console.log(`Hey ${name}`);
+function greeting(names) {
+  for (let i = 0; i < names.length; i++) {
+    console.log(`Hey ${names[i]}`);
+  }
 }
 
-greeting(userData[0]);
+greeting(userData);
