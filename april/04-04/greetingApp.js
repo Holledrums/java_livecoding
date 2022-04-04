@@ -6,3 +6,11 @@ function greeting(names) {
 }
 
 greeting(userData);
+
+// function sum(x, y) {
+//   return x + y;
+// }
+
+// let newNum = sum(3, 4) + 5;
+
+//console.log(process.env.USER);
