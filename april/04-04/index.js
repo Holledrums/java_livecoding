@@ -56,6 +56,18 @@ manyArgs(2, 3, 4, 6, 7, 8, 9, 6, 4, 3, 5, 6, 7, 8, 8, 9, 9);
 manyArgs(2, 3);
 manyArgs(2, 3, 4, 6, 7, 8);
 manyArgs(2, 3, 4, 6, 7, 8, 9, 6, 4, 3, 5, 6, 7, 8, 8, 9, 9, 333, 55, 67, 8);
+// Please never do 😉 your call stack maximum calls is 65536
+// function one() {
+//   two();
+// }
+// function two() {
+//   one();
+// }
+// one();
+
+// v8
+// document
+console.log(process);
 // read user input 😎
 
 // String [] vs charAt()
