@@ -14,3 +14,5 @@
 // man arguments
 
 // read user input 😎
+
+// String [] vs charAt()
