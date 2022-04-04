@@ -7,6 +7,7 @@
 // outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
 // Call the function three times with different sets of values.
 // Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.
+//
 
 // ------------------------
 // The Lifetime Supply Calculator
