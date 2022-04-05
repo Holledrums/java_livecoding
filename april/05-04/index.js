@@ -87,11 +87,13 @@ console.log(str[3333]); //  un
 console.log(str.charAt(333)); //
 
 console.log(str[1.4]); //  un
-console.log(str.charAt(1.4)); //
+console.log(str.charAt(1.4)); // t
 
 // hosting
 
 // können wir das irgendwie mit .repeat() lösen?
+
+// Lernen wir auch async functions ?
 
 // Recursion
 
