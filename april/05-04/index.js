@@ -70,21 +70,33 @@ console.log(iDoCoffee());
 // map Es6 2015
 //              0      1       2     3
 const names = ["ALi", "Nancy", "Olga", "Steel"];
-const greetingArr = names.map((x, i) => `Hey ${x} your index num is ${i}`);
+const greetingArr = names.map((x) => `Hey ${x}`);
 console.log(greetingArr);
 
 // for (let i = 0 ; i < arr1.length; i++)
 
-// continue;
-// Skipping an iteration:
+// String :  [] vs charAt()
+let str = "Steel";
+console.log(str[true]); // un
+console.log(str.charAt(true)); // t
 
-// brake;
-// Stopping an iteration  || exiting a switch case:
+console.log(str["Hadi"]); // un
+console.log(str.charAt("Hi")); // t // need to check
 
-// String [] vs charAt()
+console.log(str[3333]); //  un
+console.log(str.charAt(333)); //
+
+console.log(str[1.4]); //  un
+console.log(str.charAt(1.4)); //
 
 // hosting
 
 // können wir das irgendwie mit .repeat() lösen?
 
 // Recursion
+
+// continue;
+// Skipping an iteration:
+
+// brake;
+// Stopping an iteration  || exiting a switch case:
