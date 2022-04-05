@@ -38,15 +38,32 @@ const iDoSomething = function (str) {
 
 // Functions declarations as values:
 // const functionName = (parameters) => { ... }
-const iDoSomethingEs6 = (str) => "Something";
+const iDoSomethingEs6 = (str) => `Something ${str}`;
 console.log(iDoSomethingEs6());
 const trueOderFalse = (x, y) => x > y;
 console.log(trueOderFalse(3, 6));
-// Invoke the function AKA function call
 
-// Call stack
+// Invoke the function AKA function call
+iGreet();
+
+// Call stack 65536
 
 // Callback
+function iDoCoffee() {
+  let milk = iHaveMilk();
+  let sweetener = iHaveSweetener();
+  let eis = iHaveEis();
+  let spoon = iHaveSpoon();
+
+  return `Your coffee with ${milk} ${sweetener} ${eis} and ${spoon}  is ready.`;
+}
+
+const iHaveMilk = () => `Milk`;
+const iHaveSweetener = () => `Something sweet`;
+const iHaveEis = () => `Eis`;
+const iHaveSpoon = () => `Spoon`;
+
+console.log(iDoCoffee());
 
 // continue;
 // Skipping an iteration:
