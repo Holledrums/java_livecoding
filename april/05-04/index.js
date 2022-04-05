@@ -50,7 +50,7 @@ iGreet();
 
 // Callback
 function iDoCoffee() {
-  let milk = iHaveMilk();
+  let milk = iHaveMilk(); // Milk
   let sweetener = iHaveSweetener();
   let eis = iHaveEis();
   let spoon = iHaveSpoon();
@@ -58,12 +58,22 @@ function iDoCoffee() {
   return `Your coffee with ${milk} ${sweetener} ${eis} and ${spoon}  is ready.`;
 }
 
-const iHaveMilk = () => `Milk`;
-const iHaveSweetener = () => `Something sweet`;
-const iHaveEis = () => `Eis`;
+const iHaveMilk = () => "Milk";
+const iHaveSweetener = () => "Something sweet";
+const iHaveEis = () => "Eis";
 const iHaveSpoon = () => `Spoon`;
 
 console.log(iDoCoffee());
+
+// Array methods
+
+// map Es6 2015
+//              0      1       2     3
+const names = ["ALi", "Nancy", "Olga", "Steel"];
+const greetingArr = names.map((x, i) => `Hey ${x} your index num is ${i}`);
+console.log(greetingArr);
+
+// for (let i = 0 ; i < arr1.length; i++)
 
 // continue;
 // Skipping an iteration:
