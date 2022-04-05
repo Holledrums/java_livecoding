@@ -1,6 +1,22 @@
 // AEIOU:
-// Vowels. Create a function that takes a string in its parameters and counts the number of vowels (i.e. in English, “a, e, i, o, u”) in the string.
+// Vowels. Create a function that takes a string in its parameters. and counts the number of vowels (i.e. in English, “a, e, i, o, u”) in the string.
 // i.e. findVowels(“this is a string”) ➞ 4
+
+// function name findVowels, 1 argument, return a number, for, if
+function findVowels(str) {
+  let counter = 0;
+  let vowels = "AEIOUaeiou";
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      // true
+      counter++;
+    }
+  }
+  return counter;
+}
+console.log(findVowels("this is a string")); // 4
+console.log(findVowels("this")); // 1
+console.log(findVowels("Hadi")); // 2
 // ---------------------------------
 
 // No Duplicates!
@@ -9,24 +25,16 @@
 // [1, 6, 6, 9, 9] ➞ [1, 6, 9]
 // [2, 2, 2, 2, 2, 2] ➞ [2]
 // [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
-// for , function , array, if
-// function noDuplicates(arr){
-//     let newArr = [];
-// for( let i = 0; i < arr.length;i++){
-//     if(){
-//         newArr.push(arr[i]);
-//     }
-// }
-//     return newArr
-// }
+// Create a program == write a function
+// noDuplicates function, 1 array argument, return newArr, array, for, push, if
 
 // ---------------------------------
 
 // is Palindrome AKA word that reads the same backward or forward.
 
-// Write a program to check whether a word is a palindrome or not. Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
+// Write a program to check whether a word is a palindrome or not. Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat,
 
-// isPalindrome, function, if , old word == new world,
+// isPalindrome function,  1 argument str, true/false, array, array method.
 
 // This question has 2 parts
 
