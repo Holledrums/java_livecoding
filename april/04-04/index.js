@@ -1,6 +1,6 @@
 // Js methods from Math(.max , .min  , .floor , .ceil , .round ,random )
 // Js methods for str (.trim , .trimEnd , .trimStart , .length , .includes , .split , .toUpperCase , .toLowerCase)
-// Js methods for array (.length , .includes, .join ,  )
+// Js methods for array (.length , .includes, .join ,   )
 // concat()
 const arr1 = ["Hi", "cool"];
 const arr2 = [22, 33];
