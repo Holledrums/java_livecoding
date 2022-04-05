@@ -17,14 +17,12 @@ console.log(totalArray);
 // functions
 // DRY
 function sum(x, y) {
-  x + y;
-
   function doSomething() {
-    return "Hi";
+    return console.log("Hi");
   }
 
-  console.log(doSomething());
-  return "This is me 😎";
+  doSomething(); // "Hi"
+  return `This is me 😎 ${y + x}`;
 }
 
 console.log(sum(3, 4));
@@ -39,8 +37,9 @@ function iPrint(str, num, arr) {
 iPrint("Nice", ["No this", "Not cool"]);
 
 // default argument
-function sumArgs(x = 9, y = 22) {
-  return console.log(x + y);
+function sumArgs(x = 10, y = 0) {
+  console.log(y);
+  console.log("x + y = ", x + y);
 }
 sumArgs();
 
@@ -67,11 +66,5 @@ manyArgs(2, 3, 4, 6, 7, 8, 9, 6, 4, 3, 5, 6, 7, 8, 8, 9, 9, 333, 55, 67, 8);
 
 // v8
 // document
-console.log(process);
+//console.log(process);
 // read user input 😎
-
-// String [] vs charAt()
-
-// hosting
-
-// können wir das irgendwie mit .repeat() lösen?
