@@ -74,28 +74,3 @@ const fahrenheitToCelsius = (fahrenheit) =>
     ` ${fahrenheit} °F is ${(((fahrenheit - 32) * 5) / 9).toFixed(2)} °C`
   );
 fahrenheitToCelsius(80);
-// ------------------------
-// The Fortune Teller
-// Why pay a fortune teller when you can just program your fortune yourself?
-
-// Write a function named tellFortune that:
-// takes 4 arguments: number of children, partner's name, geographic location, job title.
-// outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
-// Call that function 3 times with 3 different values for the arguments
-function tellFortune() {}
-// ------------------------
-//  Write a JavaScript function that generates a string passing a specified length of random characters. AKA password generator
-// use the following chrList
-let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-// ------------------------
-// Print Exponential Values
-// Write a function that accepts two numbers and validate that they are numbers.
-// After that, the function should print y exponential values starting from x.
-
-// For example if we have function(3, 5) The function should print 3 9 27 81 243. Prints 5 exponential values of 3.
-// function(2, 8) The function prints 2 4 8 16 32 64 128 256. Prints 8 exponential values of 2.
-
-// ------------------------
-// Fruits
-// Create a function named printFavoriteFruit. Declare a variable outside of the function and store your favorite fruit as a value. Reassign the variable within the function and print "My favorite fruit is: x".
