@@ -1,7 +1,5 @@
-
-
 function printGreeting(firstname) {
-     console.log("Hallo,", firstname);
+    console.log("Hallo,", firstname);
 }
 
 
@@ -58,9 +56,6 @@ function isEven(a) {
 
     return false;
 }
-
-
-
 
 console.log(isEven(5));
 console.log(isEven(8));
