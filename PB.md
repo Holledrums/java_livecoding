@@ -2,10 +2,10 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1                                        | day-2                                      | day-3                                      | day-4                                      | day-5                                      | day-6                                      | day-7                                      | day-8                                      |
-|-----------------|----------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
-| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs)   | [22.03.](#2203-to-materialmar22-03indexjs) | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs) | [28.03.](#2803-to-materialmar28-03indexjs) | [29.03.](#2903-to-materialmar29-03indexjs) | [30.03.](#3003-to-materialmar30-03indexjs) | [31.03.](#3103-to-materialmar31-03indexjs) |
-| [April](#april) | [04.04.](#0404-to-materialapril04-04indexjs) |[05.04.](#0504-to-materialapril05-04indexjs)|                                         |                                            |                                            |                                            |                                            |                                            |                                            |
+| Month           | day-1                                        | day-2                                        | day-3                                      | day-4                                                      | day-5                                      | day-6                                      | day-7                                      | day-8                                      |
+|-----------------|----------------------------------------------|----------------------------------------------|--------------------------------------------|------------------------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| [March](#march) | [21.03.](#2103-to-materialmar21-03indexjs)   | [22.03.](#2203-to-materialmar22-03indexjs)   | [23.03.](#2303-to-materialmar23-03indexjs) | [24.03.](#2403-to-materialmar24-03indexjs)                 | [28.03.](#2803-to-materialmar28-03indexjs) | [29.03.](#2903-to-materialmar29-03indexjs) | [30.03.](#3003-to-materialmar30-03indexjs) | [31.03.](#3103-to-materialmar31-03indexjs) |
+| [April](#april) | [04.04.](#0404-to-materialapril04-04indexjs) | [05.04.](#0504-to-materialapril05-04indexjs) | [06.04.](#0604-to-tasksapril06-04tasksjs)  | [07.04.](#0704-to-tasks-extraapril07-04salemtasks-extrajs) |                                            |                                            |                                            |                                            |
 
 ---
 ### March
@@ -41,3 +41,16 @@ Here you can find all the links to materials related to the Programming Basic mo
 #### [05.04. to tasks](./april/05-04/tasks.js)
 > Return statement in a function. Functions declarations as values. Arrow function shorthand.
 Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufrufstapel). Callback function(Rückruffunktion). Array method map().
+
+#### [06.04. to tasks](./april/06-04/tasks.js)
+> Exercises in functions, array methods, string methods, and for-loops.
+
+#### [07.04. to tasks](./april/07-04/tasks.js)
+#### [07.04. to tasks-extra](./april/07-04/salem/tasks-extra.js)
+#### [07.04. to math-random](./april/07-04/salem/math-random.js)
+#### [07.04. to logic](./april/07-04/salem/logic.js)
+#### [07.04. to functions](./april/07-04/thomas/functions.js)
+#### [07.04. to callback](./april/07-04/thomas/callback.js)
+#### [07.04. to for-in-for](./april/07-04/thomas/for-in-for.js)
+#### [07.04. to numbers](./april/07-04/thomas/numbers.js)
+> Continue with the Function exercises. Review the topic of function and answer questions about it. Solve additional exercises. Explanation on the topic "Rounding-off and Rounding-up using Math.random(), Math.floor(), Math.ceil() " with an exercise. Working on the GitHub profile.
