@@ -40,14 +40,14 @@ Here you can find all the links to materials related to the Programming Basic mo
 ### April
 
 #### 04.04.
-[to Material](./april/04-04/index.js)
-[to greetingApp](./april/04-04/greetingApp.js)
-[to sumApp](./april/04-04/sumApp.js)
+[to Material](./april/04-04/index.js)\
+[to greetingApp](./april/04-04/greetingApp.js)\
+[to sumApp](./april/04-04/sumApp.js)\
 [to tasks](./april/04-04/tasks.js)
 > Function arguments. Declaring a function. Function parameters. Function Scope:  Parameters scope: Declaring variables in functions, global vs. Local scope, variable reassignment in functions. Reading functions only when they are called. Advanced Parameters: Default parameter values.  Process object in node.js: process.argv.
 
 #### 05.04.
-[to Material](./april/05-04/index.js)
+[to Material](./april/05-04/index.js)\
 [to tasks](./april/05-04/tasks.js)
 > Return statement in a function. Functions declarations as values. Arrow function shorthand.
 Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufrufstapel). Callback function(Rückruffunktion). Array method map().
@@ -57,12 +57,12 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 > Exercises in functions, array methods, string methods, and for-loops.
 
 #### 07.04. 
-[to tasks](./april/07-04/tasks.js)
-[to tasks-extra](./april/07-04/salem/tasks-extra.js)
-[to math-random](./april/07-04/salem/math-random.js)
-[to logic](./april/07-04/salem/logic.js)
-[to functions](./april/07-04/thomas/functions.js)
-[to callback](./april/07-04/thomas/callback.js)
-[to for-in-for](./april/07-04/thomas/for-in-for.js)
+[to tasks](./april/07-04/tasks.js)\
+[to tasks-extra](./april/07-04/salem/tasks-extra.js)\
+[to math-random](./april/07-04/salem/math-random.js)\
+[to logic](./april/07-04/salem/logic.js)\
+[to functions](./april/07-04/thomas/functions.js)\
+[to callback](./april/07-04/thomas/callback.js)\
+[to for-in-for](./april/07-04/thomas/for-in-for.js)\
 [to numbers](./april/07-04/thomas/numbers.js)
 > Continue with the Function exercises. Review the topic of function and answer questions about it. Solve additional exercises. Explanation on the topic "Rounding-off and Rounding-up using Math.random(), Math.floor(), Math.ceil() " with an exercise. Working on the GitHub profile.
