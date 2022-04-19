@@ -206,9 +206,13 @@ console.log("---------------------------------------");
 // tuckIn([[1, 2], [5, 6]], [[3, 4]]) ➞ [[1, 2], [3, 4], [5, 6]]
 
 const tuckIn = (arr1, arr2) => {
-    let output = [];
+    //Weg1
+    /* let output = [];
     output.push(arr1[0], ...arr2, arr1[1]);
-    return output;
+    return output; */
+
+    //Weg2
+    return arr1.slice(0, 1).concat(arr2, arr1.slice(1));
 }
 console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9])); //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(tuckIn([15, 150], [45, 75, 35])); //[15, 45, 75, 35, 150]
@@ -228,10 +232,8 @@ console.log("---------------------------------------");
 
 const numberSplit = (num) => {
     const halvesNumber = num / 2;
-    if (num % 2 !== 0) {
-        return [Math.floor(halvesNumber), Math.ceil(halvesNumber)];
-    }
-    return [halvesNumber, halvesNumber];
+    const output = [Math.floor(halvesNumber), Math.ceil(halvesNumber)];
+    return output;
 }
 console.log(numberSplit(4)); //[2, 2]
 console.log(numberSplit(10)); //[5, 5]
