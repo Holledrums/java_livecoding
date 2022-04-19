@@ -5,7 +5,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 | Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |
-| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) |                 |                 |                 |                 |
+| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) |                 |                 |                 |
 
 ---
 ### March
@@ -66,3 +66,7 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 [to for-in-for](./april/07-04/thomas/for-in-for.js)\
 [to numbers](./april/07-04/thomas/numbers.js)
 > Continue with the Function exercises. Review the topic of function and answer questions about it. Solve additional exercises. Explanation on the topic "Rounding-off and Rounding-up using Math.random(), Math.floor(), Math.ceil() " with an exercise. Working on the GitHub profile.
+
+#### 19.04. 
+[to salem-tasks-extra](./april/19-04/salem-tasks-extra.js)
+> Exercises on previous topics in JavaScript and general review.
