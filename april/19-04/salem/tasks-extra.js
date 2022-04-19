@@ -18,6 +18,7 @@ function isFourLetters(arr) {
     }
     return fourLetterArr;
     //Weg2
+    //Die Methode filter() erstellt ein neues Array mit allen Elementen, die den von der bereitgestellten Funktion implementierten Test bestehen.
     //return arr.filter(element => element.length === 4);
 }
 console.log(isFourLetters(["John", "James", "Jack", "Jeanne"])); //[ 'John', 'Jack' ]
