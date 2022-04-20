@@ -8,12 +8,25 @@ const person = {
 // Expected output:
 //   ["name", "class", "course"]
 
+// function return, array, Object.keys.
+
+function objKeys(obj) {
+  return Object.keys(obj);
+}
+console.log(objKeys(person));
+
 // Given the following object
 const student = {
   firstName: "Zain",
   lastName: "Oil",
   class: "D05",
+  print: function () {
+    console.log(
+      `${this.firstName} ${this.lastName} a student in class ${this.class}`
+    );
+  },
 };
+student.print();
 // Create a method that prints the following: "Zain Oil a student in class D05"
 
 // Get Values. Create a function that returns an array of all values of an object’s properties.
@@ -23,6 +36,12 @@ const getObjectValues = {
   choice2: "coffee",
   choice3: "milk",
 };
+// function return, array, Object.values
+function objValues(obj) {
+  return Object.values(obj);
+}
+
+console.log(objValues(getObjectValues));
 
 // Check if a number is within a given range. Write a program that checks if a number is within the range of an object's min and max properties. Assume min <= max is always true.
 
