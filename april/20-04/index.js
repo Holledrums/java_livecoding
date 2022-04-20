@@ -58,7 +58,46 @@ console.log(obj);
 
 // Assigning using bracket notation, more used for an empty object
 
+const userObj = {
+  name: "Tobi",
+  age: 33,
+  add: "xxx str 13040 Berlin",
+  act: ["draw", "sleep", "eating"],
+  job: "HR",
+  fat: true,
+};
+
 // Tell us more about you
+const myObj = {
+  name: "Hadi",
+  lastName: "Nsreeny",
+  age: 32,
+  city: "Berlin",
+  act: ["sport", "bike tour", "cooking"],
+  gotKids: false,
+  job: "Webdev",
+  toolStack: ["Ruby", "Java", "Python", "Javascript", "PHP"],
+  bike: {
+    name: "Panigale V2",
+    color: "red",
+    hp: 155,
+  },
+  walte: "isEmpty",
+  display: function () {
+    // Hey Hadi, you are 32 years old. I hope you are having fun in Berlin ....
+    console.log(
+      `Hey ${this.name} ${this.lastName}, you are ${this.age}. I hope you are having fun in ${this.city}`
+    );
+  },
+};
+
+console.log(myObj.bike.color);
+myObj.display();
+myObj.print = function () {
+  console.log("This is a cool method");
+};
+console.log(myObj);
+myObj.print();
 
 // Object.keys
 
