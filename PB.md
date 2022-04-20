@@ -72,6 +72,6 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 > Exercises on previous topics in JavaScript and general review.
 
 #### 20.04. 
-[to Material](./april/20-04/index.js)
+[to Material](./april/20-04/index.js)\
 [to tasks](./april/20-04/tasks.js)
 > Data structure: Objects: Property definition, accessing properties with bracket notation, accessing properties with dot notation, adding a new property to an object, modifying the value of a property, deleting a property of an object. Object Scope: Methods definition, using methods, object literal context method `this`. Object methods: Object.keys(), Object.values(), Object.assign(), Object.seal(), Object.isSealed()
