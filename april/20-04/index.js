@@ -100,15 +100,22 @@ console.log(myObj);
 myObj.print();
 
 // Object.keys
+console.table(Object.keys(myObj));
 
 // Object.values
+console.log(Object.values(myObj));
 
 // Object.assign
+const kids = { kids: 2, cars: 5 };
+const cars = { kids: 5, colors: ["red", "orange"], pet: "fish", age: 33 };
 
-// Object.defineProperty()
-
-// Object.defineProperties()
-
-// Object.hasOwnProperty()
+const totalObj = Object.assign(kids, cars, { name: "Steel", age: 22 });
+console.log(totalObj);
 
 // Object.seal()
+Object.seal(myObj);
+myObj.age = 22;
+console.log(myObj);
+delete myObj.name;
+console.log(myObj);
+console.log(Object.isSealed(kids));
