@@ -5,7 +5,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 | Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |
-| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) |                 |                 |                 |
+| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) |                 |                 |
 
 ---
 ### March
@@ -70,3 +70,8 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 #### 19.04. 
 [to salem-tasks-extra](./april/19-04/salem-tasks-extra.js)
 > Exercises on previous topics in JavaScript and general review.
+
+#### 20.04. 
+[to Material](./april/20-04/index.js)
+[to tasks](./april/20-04/tasks.js)
+> Data structure: Objects: Property definition, accessing properties with bracket notation, accessing properties with dot notation, adding a new property to an object, modifying the value of a property, deleting a property of an object. Object Scope: Methods definition, using methods, object literal context method `this`. Object methods: Object.keys(), Object.values(), Object.assign(), Object.seal(), Object.isSealed()
