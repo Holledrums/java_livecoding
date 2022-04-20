@@ -55,6 +55,28 @@ console.log(objValues(getObjectValues));
 
 // (5, { min: 5, max: 5 }) ➞ true
 
+// if else and function
+// OP 1
+// function withInTheRange(num, obj) {
+//   // 4 >= min && 4 <= max
+//   if (num >= obj.min && num <= obj.max) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// OP 2
+// function withInTheRange(num, obj) {
+//   // 4 >= min && 4 <= max
+//   return (num >= obj.min && num <= obj.max)
+// }
+// OP 3
+const withInTheRange = (num, obj) => num >= obj.min && num <= obj.max;
+
+console.log(withInTheRange(5, { min: 5, max: 5 }));
+console.log(withInTheRange(10, { min: 0, max: 5 }));
+console.log(withInTheRange(4, { min: 0, max: 5 }));
+
 // Scrabble. Write a program that, given an array of scrabble tiles, counts the maximum score that a player can earn from the tiles in their hand.
 // Example:
 // [ { tile: "N", score: 1 }, { tile: "K", score: 5 }, { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 }, { tile: "A", score: 1 }, { tile: "E", score: 1 } ]
