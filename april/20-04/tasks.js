@@ -89,6 +89,15 @@ const scrabble = [
   { tile: "A", score: 1 },
   { tile: "E", score: 1 },
 ];
+// array -> loop, function, counter +=
+function sumOfTheScrabble(arr) {
+  let result = 0;
+  for (let i = 0; i < arr.length; i++) {
+    result += arr[i].score;
+  }
+  return result;
+}
+console.log(sumOfTheScrabble(scrabble));
 
 // Is it an empty object? Write a program that returns true if an object is empty, and false if otherwise.
 
@@ -97,3 +106,10 @@ const scrabble = [
 // {} ➞ true
 
 // {a: 1} ➞ false
+
+// function, return , if
+function isEmpty(obj) {
+  return Object.keys(obj).length == 0;
+}
+console.log(isEmpty({}));
+console.log(isEmpty({ a: 1 }));
