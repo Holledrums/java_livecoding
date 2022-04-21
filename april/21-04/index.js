@@ -73,5 +73,31 @@ Object.defineProperties(userInfoObj, {
   act: { value: ["Cooking", "Biking"] },
   bikes: { value: ["V2"], writable: false },
 });
+console.log(userInfoObj.lastName);
 
 // Object.hasOwnProperty()
+console.log(userInfoObj.hasOwnProperty("name"));
+console.log(userInfoObj.hasOwnProperty("age"));
+
+// Counting Letters. Create a function that counts the number of occurrences of each letter in a string. Return an object with key pair values of letters and the number of occurrences for each letter.
+
+// Example:
+
+// countLetters("tree") ➞ {t: 1, r: 1, e: 2}
+
+// function, return Object, counter, loop, {}, if else , hasOwnProp,
+// OP 1
+function countLetters(str) {
+  let resultObj = {};
+  for (let i = 0; i < str.length; i++) {
+    let currentChr = str[i];
+    if (resultObj.hasOwnProperty(currentChr)) {
+      resultObj[currentChr] += 1;
+    } else {
+      resultObj[currentChr] = 1;
+    }
+  }
+  return console.log(resultObj);
+}
+countLetters("tree and sun");
+// OP2
