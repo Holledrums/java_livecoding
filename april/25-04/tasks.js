@@ -59,6 +59,15 @@ for (const key in person) {
 // Expected output:
 // ["tea", "coffee", "milk"]
 
+const getObjectValues = (obj) => Object.values(obj);
+console.log(
+  getObjectValues({
+    choice1: "tea",
+    choice2: "coffee",
+    choice3: "milk",
+  })
+);
+
 // 3. Add A Method. Create an object and add a method to that object which prints the values of the objects in a string.
 
 // Example
