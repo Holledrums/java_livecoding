@@ -90,14 +90,30 @@ console.log(
 // })
 // Expected output:
 // [["A", 1], ["B", 2], ["C", 3]]
+const objectToArray = (obj) => Object.entries(obj);
+console.log(
+  objectToArray({
+    A: 1,
+    B: 2,
+    C: 3,
+  })
+);
 
 // List Properties. Create a function that returns an array of properties of a javascript object.
 
 // Example
-// let student = {
+// const student = {
 //   name: "Mike",
-//   class: "4A"
+//   class: "4A".
 //   course: "English"
 // }
 // Expected output:
 // ["name", "class", "course"]
+
+const student = {
+  name: "Mike",
+  class: "4A",
+  course: "English",
+};
+const keysArr = (obj) => Object.keys(obj);
+console.log(keysArr(student));
