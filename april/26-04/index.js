@@ -6,7 +6,7 @@ for (let i = 0; i < numbersArray.length; i++) {
   let cur = numbersArray[i];
   box = box + cur;
 }
-console.log(box);
+//console.log(box);
 // Have 4 toDos
 // 1. method ✔
 // 2. callBack ✔️
@@ -16,7 +16,7 @@ console.log(box);
 const resultSum = numbersArray.reduce((box, cur) => {
   return box + cur;
 }, 0);
-console.log(resultSum);
+//console.log(resultSum);
 
 // Create a function that returns an object has following output, try this one in Advance array methods 💪🏻
 
@@ -37,25 +37,58 @@ function countLetters(str) {
   }
   return console.log(resultObj);
 }
-countLetters("tree and sun");
+//countLetters("tree and sun");
 
 // [] () {}
-const countLetter = (str) => {
-  const arr = str.split("");
-  const result = arr.reduce((box, cur) => {
-    // box[cur] = box[cur] ? box[cur] +1 : 1;
-    // box[cur] = box.hasOwnProperty(cur) ? box[cur] +1 : 1;
-    // if(box.hasOwnProperty(cur))
-    if (box[cur]) {
-      box[cur] += 1;
-    } else {
-      box[cur] = 1;
-    }
+
+// // Op prof
+// box[cur] = box[cur] ? box[cur] + 1 : 1;
+// Op 2
+// box[cur] = box.hasOwnProperty(cur) ? box[cur] +1 : 1;
+// Op 3
+// if(box.hasOwnProperty(cur)){
+//   box[cur] += 1;
+// } else {
+//   box[cur] = 1;
+// }
+// Op4
+// if (box[cur]) {
+//     box[cur] += 1;
+//   } else {
+//     box[cur] = 1;
+//   }
+//   return box;
+
+const countLetter = (str) =>
+  str.split("").reduce((box, cur) => {
+    box[cur] = box[cur] ? box[cur] + 1 : 1;
     return box;
   }, {});
-  return result;
-};
+
 console.log(countLetter("tree"));
+
+// Scrabble. Write a program that, given an array of scrabble tiles, counts the maximum score that a player can earn from the tiles in their hand.
+// Example:
+// [ { tile: "N", score: 1 }, { tile: "K", score: 5 }, { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 }, { tile: "A", score: 1 }, { tile: "E", score: 1 } ]
+const scrabble = [
+  { tile: "N", score: 1 },
+  { tile: "K", score: 5 },
+  { tile: "Z", score: 10 },
+  { tile: "X", score: 8 },
+  { tile: "D", score: 2 },
+  { tile: "A", score: 1 },
+  { tile: "E", score: 1 },
+];
+function sumOfTheScrabble(arr) {
+  let result = 0;
+  for (let i = 0; i < arr.length; i++) {
+    result += arr[i].score;
+  }
+  return result;
+}
+console.log(sumOfTheScrabble(scrabble));
+const sumOfScore = (arr) => arr.reduce((result, cur) => result + cur.score, 0);
+console.log(sumOfScore(scrabble));
 
 // map
 // Have 4 toDos
