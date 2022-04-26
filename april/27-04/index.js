@@ -6,3 +6,17 @@
 // 4. make a copy for the original array
 
 // filter
+
+// reduce
+
+// fill
+
+// sort
+
+// forEach
+
+// find
+
+// some
+
+// every
