@@ -43,18 +43,20 @@ countLetters("tree and sun");
 const countLetter = (str) => {
   const arr = str.split("");
   const result = arr.reduce((box, cur) => {
-    // box["t"] = 1
-    // box[cur]= box[cur] ? box[cur] +1 : 1;
-    if (box["t"]) {
+    // box[cur] = box[cur] ? box[cur] +1 : 1;
+    // box[cur] = box.hasOwnProperty(cur) ? box[cur] +1 : 1;
+    // if(box.hasOwnProperty(cur))
+    if (box[cur]) {
       box[cur] += 1;
     } else {
       box[cur] = 1;
     }
-
     return box;
   }, {});
+  return result;
 };
-console.log(countLetter("qqq"));
+console.log(countLetter("tree"));
+
 // map
 // Have 4 toDos
 // 1. method
