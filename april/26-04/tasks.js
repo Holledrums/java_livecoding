@@ -22,3 +22,16 @@
 //  	  { name: "John" }
 // 	  ])
 // ➞ ["Jane", "Jack", "John"]
+
+// Scrabble. Write a program that, given an array of scrabble tiles, counts the maximum score that a player can earn from the tiles in their hand.
+// Example:
+// [ { tile: "N", score: 1 }, { tile: "K", score: 5 }, { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 }, { tile: "A", score: 1 }, { tile: "E", score: 1 } ]
+const scrabble = [
+  { tile: "N", score: 1 },
+  { tile: "K", score: 5 },
+  { tile: "Z", score: 10 },
+  { tile: "X", score: 8 },
+  { tile: "D", score: 2 },
+  { tile: "A", score: 1 },
+  { tile: "E", score: 1 },
+];
