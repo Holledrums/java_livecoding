@@ -89,12 +89,3 @@ function sumOfTheScrabble(arr) {
 console.log(sumOfTheScrabble(scrabble));
 const sumOfScore = (arr) => arr.reduce((result, cur) => result + cur.score, 0);
 console.log(sumOfScore(scrabble));
-
-// map
-// Have 4 toDos
-// 1. method
-// 2. callBack
-// 3. loop
-// 4. make a copy for the original array
-
-// filter
