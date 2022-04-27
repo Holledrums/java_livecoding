@@ -23,8 +23,20 @@ const greeting = users.map((user) => {
 });
 console.log(greeting);
 // const yorNewCopy = yourOriginalArray.map((element,index)=>{return "your new index value"});
-
+// const emojis = ["😉", "😉", "😉", "😉", "😎", "😎", "🤓"];
 // filter
+const filteredEmoji = emojis.filter((emoji) => {
+  return emoji == "😈";
+});
+console.log(filteredEmoji);
+const words = ["this", "is", "longText", "somethingLong", "jo"];
+const filteredWords = words.filter((word) => word.length == 2);
+console.log(filteredWords);
+const jobs = [
+  { title: "teacher", salary: 1500, location: "Amsterdam", remote: true },
+  { title: "IT", salary: 2400, location: "LA", remote: true },
+  { title: "Web developer", salary: 1800, location: "London", remote: false },
+];
 
 // reduce
 
