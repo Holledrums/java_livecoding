@@ -37,17 +37,32 @@ const jobs = [
   { title: "IT", salary: 2400, location: "LA", remote: true },
   { title: "Web developer", salary: 1800, location: "London", remote: false },
 ];
+const filteredJob = jobs.filter(
+  (job) => job.salary >= 1500 && job.salary <= 2000
+);
+console.log(filteredJob);
 
 // reduce
+const itemsList = [
+  { title: "Qual lock", price: 80 },
+  { title: "shoe", price: 139 },
+  { title: "light", price: 120 },
+];
+const totalCost = itemsList.reduce((acc, item) => acc + item.price, 0);
+console.log(`You have to pay : ${totalCost}€`);
 
 // fill
+const arr = [1, 2, 5, "😎", "🤓", 9];
+const alpha = ["a", "c", "b", "A", ":"].sort();
+console.log(alpha);
+//console.log(arr.fill({ price: 99 }));
 
 // sort
+// UTF-16 code
+// method
+// callback *
+console.log(arr.sort((a, b) => a - b));
+// const sortedArr = arr.sort();
+// console.log(sortedArr);
 
-// forEach
-
-// find
-
-// some
-
-// every
+// 3748765
