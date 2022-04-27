@@ -2,10 +2,10 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-| [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |
-| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) |
+| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           | day-10         |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|
+| [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |
+| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) |
 
 ---
 ### March
@@ -83,9 +83,13 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 #### 25.04.
 [to Material](./april/25-04/index.js)\
 [to tasks](./april/25-04/tasks.js)
-> Conversion and iterations: Iterating over objects: for...in loop. Iterating over arrays: for...of loop. Callback function. Advanced Array methods: Converting an array to a different array: Array.prototype.map(<function>). Converting an array to a single value: Array.prototype.reduce(<function>)
+> Conversion and iterations: Iterating over objects: for...in loop. Iterating over arrays: for...of loop. Callback function. Advanced Array methods: Converting an array to a single value: Array.prototype.reduce(<function>)
 
 #### 26.04.
 [to Material](./april/26-04/index.js)\
 [to tasks](./april/26-04/tasks.js)
 > Exercises on object methods. Exercises on advanced array method: Array.reduce().
+
+#### 27.04.
+[to Material](./april/27-04/index.js)
+Advanced Array methods: map(), filter(), fill(), sort()
