@@ -1,3 +1,4 @@
+const emoji = ["😉", "😉", "😉", "😉", "😎"];
 // map
 // Have 4 toDos
 // 1. method
