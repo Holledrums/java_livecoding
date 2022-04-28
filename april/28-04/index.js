@@ -52,7 +52,7 @@ for (let i = 0; i < cities.length; i++) {
 
 // find
 //               0     1     2     3     4
-const emojis = ["😎", "😎", "😎", "😎", "😎", "🤓", "🤓", "🤓", "🤓", "❤️"];
+const emojis = ["😎", "😎", "😎", "😎", "😎", "🤓", "🤓", "🤓", "🤓", "❤️", 1];
 const findEmojiResult = emojis.find((ele) => ele == "🤓");
 const filterEmojiResult = emojis.filter((ele) => ele == "🤓");
 console.log("----- find -----");
@@ -74,4 +74,55 @@ console.log(emojis.some((ele) => ele == "😎")); // true/false
 console.log("----- every -----");
 // every
 console.log(emojis.every((ele) => ele == "😎")); // true/false
+
+// let const var
+// if () {
+// something true
+//} else {
+// something false
+// }
+// && ||
 // = == ===
+// for(let i=0;i < 10;i++)
+// ++ --
+// +=  -=  *=  /=
+// .length (String oder Array)
+// console.log()
+// String ""
+// Number 0287643 -2 22.3
+// Bool (true/false)
+// Array []
+// Object {}
+const item = {
+  id: 1993,
+  name: "iPhone",
+  price: 1200,
+  model: "Pro Max",
+  memoryCard: 256,
+  apps: ["Clock", "FaceBook", "FaceTime"],
+  abCountry: {
+    location: "Berlin",
+    amount: 33,
+    sellOne: function () {
+      return this.amount--;
+    },
+    returnOne: function () {
+      return this.amount++;
+    },
+    callChina: function () {
+      return (this.amount += 100);
+    },
+  },
+  getInfo: function () {
+    console.log(
+      `This ${this.name} sold in ${this.abCountry.location} will cost you ${this.price}€ `
+    );
+  },
+  printData: () => console.log("This is a cool function"),
+};
+console.log(item.abCountry.location);
+item.abCountry.returnOne();
+item.abCountry.returnOne();
+item.abCountry.returnOne();
+item.abCountry.sellOne();
+console.log(item.abCountry.amount);
