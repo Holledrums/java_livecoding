@@ -60,9 +60,7 @@ console.log(alpha);
 // sort
 // UTF-16 code
 // method
-// callback *
+// callback
 console.log(arr.sort((a, b) => a - b));
 // const sortedArr = arr.sort();
 // console.log(sortedArr);
-
-// 3748765
