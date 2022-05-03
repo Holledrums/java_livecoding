@@ -43,6 +43,51 @@ console.log(Array.isArray(arr));
 
 // Basil finds
 
+// {t:1,r:1,e:2}
+
+const countLetters = (str) =>
+  str.split("").reduce((totalObj, letter) => {
+    totalObj[letter] ? totalObj[letter]++ : (totalObj[letter] = 1);
+    return totalObj;
+  }, {});
+console.log(countLetters("tree"));
+// Write a JavaScript function to fill an array with values (numeric, string with one character) on supplied bounds.
+// console.log(numStringRange("a", "z", 2));
+// // ["a", "c", "e", "g", "i", "k", "m", "o", "q", "s", "u", "w", "y"]
+
+function numStringRange(start, end, step) {
+  var range = [];
+  if (
+    step === 0 ||
+    typeof start == "undefined" ||
+    typeof end == "undefined" ||
+    typeof start != typeof end
+  )
+    return false;
+  if (end < start) {
+    step = -step;
+  }
+  if (typeof start == "number") {
+    while (step > 0 ? end >= start : end <= start) {
+      range.push(start);
+      start += step;
+    }
+  } else if (typeof start == "string") {
+    if (start.length != 1 || end.length != 1) {
+      throw TypeError("Strings with one character are supported.");
+    }
+    start = start.charCodeAt(0);
+    end = end.charCodeAt(0);
+    while (step > 0 ? end >= start : end <= start) {
+      range.push(String.fromCharCode(start));
+      start += step;
+    }
+  } else {
+    throw TypeError("Only string and number are supported");
+  }
+  return range;
+}
+
 // Advanced test am 17.05
 // SAIF
 // Closure
