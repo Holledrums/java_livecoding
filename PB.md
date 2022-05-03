@@ -2,10 +2,11 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           | day-10         | day-10         |
+| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           | day-10         | day-11         |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
 | [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
+| [May](#may)     | [02.05.](#0205) |                 |                 |                 |                 |                 |                 |                 |                 |                |                |
 
 ---
 ### March
@@ -98,3 +99,11 @@ Advanced Array methods: map(), filter(), fill(), sort()
 [to Material](./april/28-04/index.js)\
 [to tasks](./april/28-04/tasks.js)
 > Recap for, for..in, for...of statements. while statement. do...while statement. Advanced Array methods: forEach(), find(), findIndex(), some(), every(). JavaScript overview.
+
+
+### May
+
+#### 02.05.
+[to Material](./may/02-05/index.js)\
+[to tasks](./may/02-05/tasks.js)
+> Overview: (let, const, var), ternary operator, strings, if...else statement. switch statement. for statement: continue, breack. 
