@@ -14,15 +14,22 @@ console.table(names);
 const ppl = [
   { name: "Ali", age: 22, add: "Berlin" },
   { name: "Nancy", age: 45, add: "LA" },
-  { name: "Steel", age: 29, add: "NY" },
+  { name: "Steel", age: 29, add: "Berlin" },
   { name: "Olga", age: 60, add: "Amsterdam" },
   { name: "Leo", age: 99, add: "London" },
 ];
 console.log(ppl[3].add);
 console.log(ppl[3]["add"]);
-console.table(ppl.map((person) => person.add));
+// cool
+console.table(ppl.map((person) => `I like ${person.add} `));
+// long
 let addArray = [];
 for (let i = 0; i < ppl.length; i++) {
   addArray.push(ppl[i].add);
 }
 console.table(addArray);
+console.log(ppl.filter((person) => person.add.toLowerCase() == "berlin"));
+console.log(ppl.find((person) => person.add.toLowerCase() == "berlin"));
+ppl.forEach((person) => {
+  console.log(person);
+});
