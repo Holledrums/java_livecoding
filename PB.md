@@ -6,7 +6,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
 | [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
-| [May](#may)     | [02.05.](#0205) | [03.05.](#0205) |                 |                 |                 |                 |                 |                 |                 |                |                |
+| [May](#may)     | [02.05.](#0205) | [03.05.](#0205) | [04.05.](#0405) |                 |                 |                 |                 |                 |                 |                |                |
 
 ---
 ### March
@@ -111,4 +111,10 @@ Advanced Array methods: map(), filter(), fill(), sort()
 #### 03.05.
 [to material](./may/03-05/index.js)\
 [to tasks](./may/03-05/tasks.js)
-> Overwiew: functions, arrays. Loosely typed vs strongly typed languages. Object method: Object.getOwnPropertyNames().  Array method: Array.isArray().
+> Overview: functions, arrays. Loosely typed vs strongly typed languages. Object method: Object.getOwnPropertyNames().  Array method: Array.isArray().
+
+#### 04.05.
+[to material](./may/04-05/index.js)\
+[to tasks](./may/04-05/tasks.js)\
+[to test](./may/04-05/test.js)
+> Overview: Array methods. PB test.
