@@ -10,7 +10,8 @@
 
 // arrowFunc(true) ➞ true
 
-// A vehicle needs 10 times the amount of fuel than the distance it travels. However, it must always carry a minimum of 100 fuel before setting off.
+// A vehicle needs 10 times the amount of fuel than the distance it travels.
+// However, it must always carry a minimum of 100 fuel before setting off.
 
 // Create a function which calculates the amount of fuel it needs, given the distance.
 
@@ -21,7 +22,9 @@
 
 // calculateFuel(3) ➞ 100
 
-// You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+// You are counting points for a basketball game, given the amount of 2-pointers
+// scored and 3-pointers scored, find the final points for the team and return
+// that value.
 
 // Examples
 // points(1, 1) ➞ 5
