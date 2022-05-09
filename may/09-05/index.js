@@ -94,15 +94,61 @@ If the person has already retired then the message 'You're already retired!' sho
 Example: A lady is 40 years old, she retires at 65, she earns $2000 per month and she saves the 5% of it. How much money will she have saved until she retires?
 Output: $3000 */
 // currentAge retirementAge monthlyWage percentage
-const moneyFunction = ((currentAge, retirementAge, monthlyWage, percentage) => {
+
+((currentAge, retirementAge, monthlyWage, percentage) => {
   if (currentAge >= retirementAge) {
-    return "Sorry, you need to enjoy your off days";
+    return "You are already in holyday";
   } else {
+    let monthlySavedMoney = (monthlyWage * percentage) / 100;
     let yearsToWork = retirementAge - currentAge;
-    let moneyToSafe = (monthlyWage * percentage) / 100;
-    let totalSave = yearsToWork * (moneyToSafe * 12);
-    console.log(
-      `You are ${currentAge} and you need to work ${yearsToWork}. you are currently saving ${moneyToSafe} monthly. so after ${yearsToWork} ypu will save ${totalSave} `
-    );
+    let totalSaved = 12 * monthlySavedMoney * yearsToWork;
+    console.log(`${totalSaved}`);
   }
-})(40, 60, 1000, 10);
+})(32, 63, 2000, 1);
+
+// Write a function that checks if a user give a correct German bank account
+// Example:
+// DE3333 -> this is not a complete bank account please check
+// QQ -> this is not a bank account
+// DE33nn54637 -> this is a wrong bank account
+// DE22222343548839385096 -> this is correct, I'll take your money :)
+// bankContoCheck("DE3333");
+
+const bankContoCheck = (str) => {
+  let countrySym = str.substring(0, 2);
+  let accNumbers = str.substring(2);
+  let userAccLength = str.length;
+  if (countrySym != "DE") {
+    return "this is not a bank account";
+  }
+  if (userAccLength != 22) {
+    return "this is not a complete bank account please check";
+  }
+  if (isNaN(accNumbers)) {
+    return "this is a wrong bank account";
+  }
+  return "this is correct, I'll take your money :)";
+};
+console.log(bankContoCheck("DE2222234354883nn85096"));
+console.log(bankContoCheck("DE5096"));
+console.log(bankContoCheck("DE22222343548839385096"));
+// Miserable Parody of a Calculator
+// Create a function that will handle simple math expressions. The input is an expression in the form of a string.
+// Examples
+// calculator("23+4") ➞ 27
+// calculator("45-15") ➞ 30
+// calculator("13+2-5*2") ➞ 5
+// calculator("49/7*2-3") ➞ 11
+
+// Visa oer Master, write a function that checks if the user has entered a valid card data
+// Example:
+// 412178679036597 -> this is Visa card, I need your money
+// 512178679036597 -> this is Master card, I need your money
+// 34121786790365 -> this is AmEpx card, I need your money
+// 11111 -> this is not correct
+// de343ee -> this is not correct
+
+// Phone number, Write a function that checks if a user give a correct German (landline Berlin 030) phone number
+// 030-1247893 -> I'll call now
+// 333-332222 -> this is not a phone number
+// 030-33 -> This is not complete !
