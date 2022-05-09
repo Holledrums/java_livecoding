@@ -92,4 +92,17 @@ The monthly wage the person earns // e.g. 1000
 The percentage (as integer) that the person saves each month // e.g. 10%
 If the person has already retired then the message 'You're already retired!' should be printed. If not, then the program should calculate how many years remain until the person retires, the monthly income and take a specific percent of this income every month as saved money.
 Example: A lady is 40 years old, she retires at 65, she earns $2000 per month and she saves the 5% of it. How much money will she have saved until she retires?
-Output: $30000 */
+Output: $3000 */
+// currentAge retirementAge monthlyWage percentage
+const moneyFunction = ((currentAge, retirementAge, monthlyWage, percentage) => {
+  if (currentAge >= retirementAge) {
+    return "Sorry, you need to enjoy your off days";
+  } else {
+    let yearsToWork = retirementAge - currentAge;
+    let moneyToSafe = (monthlyWage * percentage) / 100;
+    let totalSave = yearsToWork * (moneyToSafe * 12);
+    console.log(
+      `You are ${currentAge} and you need to work ${yearsToWork}. you are currently saving ${moneyToSafe} monthly. so after ${yearsToWork} ypu will save ${totalSave} `
+    );
+  }
+})(40, 60, 1000, 10);
