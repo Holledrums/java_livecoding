@@ -6,7 +6,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
 | [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
-| [May](#may)     | [02.05.](#0205) | [03.05.](#0205) |                 |                 |                 |                 |                 |                 |                 |                |                |
+| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) |                 |                 |                 |                 |                |                |
 
 ---
 ### March
@@ -112,3 +112,23 @@ Advanced Array methods: map(), filter(), fill(), sort()
 [to material](./may/03-05/index.js)\
 [to tasks](./may/03-05/tasks.js)
 > Overwiew: functions, arrays. Loosely typed vs strongly typed languages. Object method: Object.getOwnPropertyNames().  Array method: Array.isArray().
+
+#### 04.05.
+[to material](./may/04-05/index.js)\
+[to tasks](./may/04-05/tasks.js)\
+[to test](./may/04-05/test.js)
+> Overview: Array methods. PB test.
+
+#### 05.05.
+[to material](./may/05-05/index.js)\
+[to countdown-exercise](./may/05-05/exercises-recursion/countdown-exercise.js)\
+[to countdown-explicit](./may/05-05/exercises-recursion/countdown-explicit.js)\
+[to countdown-recursive](./may/05-05/exercises-recursion/countdown-recursive.js)\
+[to permutate-exercise](./may/05-05/exercises-recursion/permutate-exercise.js)\
+[to permutate](./may/05-05/exercises-recursion/permutate.js)\
+[to permutation-illustration](./may/05-05/exercises-recursion/permutation-illustration.jpg)
+> Recursive functions. Permutation exercises. Countdown exercises.
+
+#### 09.05.
+[to material](./may/09-05/index.js)
+> Closure: Declaring functions inside functions, nested scopes: Accessing outer variables. Higher Order functions: "Functions that return other functions". Self-Invoked Anonymous Functions (SIAF). Immediately-Invoked Function Expression(IIFE).
