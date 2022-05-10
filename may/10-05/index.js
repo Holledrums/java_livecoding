@@ -97,8 +97,49 @@ const newPPlCopy = ppl.map(
   `);
   }
 );
+const userCarData = {
+  year: 2020,
+  model: "A7",
+  speed: 250,
+  price: 75000,
+  get fullCarName() {
+    if (this.model == undefined || this.price < 5000) {
+      return "This data is not ready";
+    }
+    return `Our Car ${this.model} price : ${this.price}€.`;
+  },
+  set fullCarName(str) {
+    let arr = str.split(" ");
+    this.year = arr[0];
+    this.model = arr[1];
+    this.speed = arr[2];
+    this.price = arr[3];
+  },
+};
 // getter
+console.log(userCarData.fullCarName);
 
 // setter
+userCarData.fullCarName = "2022 Q5 300 80000";
+console.log(userCarData.fullCarName);
+userCarData.fullCarName = "2019 A3 220 44000";
+console.log(userCarData.fullCarName);
 
 // constructor our own
+function Person(name, age, add) {
+  this.name = name;
+  this.age = age;
+  this.add = add;
+  this.printOut = function () {
+    console.log(
+      `Hey ${this.name}, ${this.age} years old. You live in ${this.add}.`
+    );
+  };
+}
+const hadiData = new Person("Hadi", 32, "Berlin");
+const aliData = new Person("Ali", 22, "LA");
+const nancyData = new Person("Nancy", 40, "London");
+console.log(hadiData.name);
+nancyData.printOut();
+aliData.printOut();
+//console.log(Data)
