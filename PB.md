@@ -6,7 +6,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
 | [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
-| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) |                 |                 |                 |                 |                |                |
+| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) | [10.05.](#1005) |                 |                 |                 |                |                |
 
 ---
 ### March
@@ -132,3 +132,7 @@ Advanced Array methods: map(), filter(), fill(), sort()
 #### 09.05.
 [to material](./may/09-05/index.js)
 > Closure: Declaring functions inside functions, nested scopes: Accessing outer variables. Higher Order functions: "Functions that return other functions". Self-Invoked Anonymous Functions (SIAF). Immediately-Invoked Function Expression(IIFE).
+
+#### 10.05.
+[to material](./may/10-05/index.js)
+> Object destructuring assignment. JavaScript Object Accessors(Getters and Setters). Constructor function in JavaScript.
