@@ -139,16 +139,45 @@ console.log(bankContoCheck("DE22222343548839385096"));
 // calculator("45-15") ➞ 30
 // calculator("13+2-5*2") ➞ 5
 // calculator("49/7*2-3") ➞ 11
+const calculate = (str) => Function(`return ${str}`)();
+//  const calculate = (str) => `${str}`;
+console.log(calculate("23+4"));
 
 // Visa oder Master, write a function that checks if the user has entered a valid card data
 // Example:
-// 412178679036597 -> this is Visa card, I need your money
-// 512178679036597 -> this is Master card, I need your money
-// 34121786790365 -> this is AmEpx card, I need your money
+// 4121786790367597 -> this is Visa card, I need your money
+// 5121786790356597 -> this is Master card, I need your money
+// 341217867906365 -> this is AmEpx card, I need your money
 // 11111 -> this is not correct
 // de343ee -> this is not correct
+const cardCheck = (str) => {
+  if (isNaN(str)) {
+    return console.log("Hey, enter only numbers");
+  }
+  // DRY
+  if (str.length == 16) {
+    if (str[0] == 4) {
+      // Visa
+      console.log("this is Visa card, I need your money");
+    } else if (str[0] == 5) {
+      // master
+      console.log("this is Master card, I need your money");
+    }
+  } else if (str[0] == 3 && str.length == 15) {
+    // AmiEX
+    console.log("this is AmEpx card, I need your money");
+  } else {
+    console.log("this is not correct");
+  }
+};
+cardCheck("3123456789012344");
 
 // Phone number, Write a function that checks if a user give a correct German (landline Berlin 030) phone number
 // 030-1247893 -> I'll call now
 // 333-332222 -> this is not a phone number
 // 030-33 -> This is not complete !
+
+// Email check, write a program that checks yours input if it's a correct email
+// emailCheck("Hi@hh.co") -> true
+// emailCheck("Hihh.co") -> false
+// emailCheck("@hh.co") -> false
