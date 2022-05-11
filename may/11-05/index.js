@@ -85,7 +85,7 @@ class Tv {
   randomChannel() {
     this.channel = Math.floor(Math.random() * 50) + 1;
   }
-  display() {
+  info() {
     return `This ${this.brand} Tv, has channel ${this.channel} on right now. The volume is currently at ${this.volume} `;
   }
 }
@@ -106,5 +106,5 @@ samsung.randomChannel();
 console.log(samsung);
 const lg = new Tv("LG", 80);
 console.log(lg.brand);
-console.log(lg.display());
+console.log(lg.info());
 // extends && super
