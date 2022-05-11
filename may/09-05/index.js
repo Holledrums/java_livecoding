@@ -140,7 +140,7 @@ console.log(bankContoCheck("DE22222343548839385096"));
 // calculator("13+2-5*2") ➞ 5
 // calculator("49/7*2-3") ➞ 11
 
-// Visa oer Master, write a function that checks if the user has entered a valid card data
+// Visa oder Master, write a function that checks if the user has entered a valid card data
 // Example:
 // 412178679036597 -> this is Visa card, I need your money
 // 512178679036597 -> this is Master card, I need your money
