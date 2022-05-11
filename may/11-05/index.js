@@ -107,4 +107,67 @@ console.log(samsung);
 const lg = new Tv("LG", 80);
 console.log(lg.brand);
 console.log(lg.info());
-// extends && super
+
+class WashingMachine {
+  constructor(brand, capacity, color, modelName, dimensions) {
+    this.brand = brand;
+    this.color = color;
+    this.capacity = capacity;
+    this.modelName = modelName;
+    this.dimensions = dimensions;
+    this.currentLoad = 0;
+    this.wet = false;
+    this.program = 0;
+  }
+  spin() {
+    return console.log("This is the max speed");
+  }
+  dry() {
+    return console.log("This is the dry mood");
+  }
+  clean() {
+    return console.log("It'S cleaning time");
+  }
+  eco() {
+    return console.log("ECO");
+  }
+  sport() {
+    return console.log("This is the 🚴🏻‍♀️ mood");
+  }
+  randomProgram() {
+    this.program = Math.floor(Math.random() * 5) + 1;
+  }
+  programCheck() {
+    switch (this.program) {
+      case 1:
+        this.dry();
+        break;
+      case 2:
+        this.spin();
+        break;
+      case 3:
+        this.eco();
+        break;
+      case 4:
+        this.clean();
+        break;
+      case 5:
+        this.sport();
+        break;
+      default:
+        return "IDK 🫣";
+    }
+  }
+}
+2;
+const samsungWM = new WashingMachine(
+  "Samsung",
+  9,
+  "White",
+  "WD947",
+  "85*90*75"
+);
+console.log(samsungWM.program);
+samsungWM.randomProgram();
+console.log(samsungWM.program);
+samsungWM.programCheck();
