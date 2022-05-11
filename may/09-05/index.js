@@ -149,12 +149,13 @@ console.log(calculate("23+4"));
 // 5121786790356597 -> this is Master card, I need your money
 // 341217867906365 -> this is AmEpx card, I need your money
 // 11111 -> this is not correct
-// de343ee -> this is not correct
+// de343ee -> Hey, enter only numbers
 const cardCheck = (str) => {
   if (isNaN(str)) {
     return console.log("Hey, enter only numbers");
   }
   // DRY
+  // Das ist nicht Profi aber bald mit Regex
   if (str.length == 16) {
     if (str[0] == 4) {
       // Visa
@@ -170,13 +171,37 @@ const cardCheck = (str) => {
     console.log("this is not correct");
   }
 };
-cardCheck("3123456789012344");
+cardCheck("de343ee");
 
-// Phone number, Write a function that checks if a user give a correct German (landline Berlin 030) phone number
+// Phone number, Write a function that checks if a user give a correct German (landline Berlin ) phone number
+// 0301247893 -> I'll call now
+// 333332222 -> this is not a phone number
+// 03033 -> This is not complete !
+// 030AA3 -> WTF !
+
+const phoneCheck = (str) => {
+  if (isNaN(str)) {
+    return console.log("WTF !");
+  }
+  let vorNummer = str.substring(0, 2);
+  if (str.length != 10) {
+    return console.log("This is not complete !");
+  }
+  switch (vorNummer) {
+    case "01":
+      console.log("Handy, I'll call now");
+      break;
+    case "03":
+      console.log("Berlin, I'll call now");
+      break;
+    default:
+      console.log("Check one more time");
+  }
+};
+
 // 030-1247893 -> I'll call now
-// 333-332222 -> this is not a phone number
-// 030-33 -> This is not complete !
 
+phoneCheck("0110111111");
 // Email check, write a program that checks yours input if it's a correct email
 // emailCheck("Hi@hh.co") -> true
 // emailCheck("Hihh.co") -> false
