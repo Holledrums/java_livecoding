@@ -83,3 +83,5 @@ const vowelCount = (str) => {
 };
 console.log(vowelCount("hello"));
 console.log(vowelCount("fbw"));
+
+// this is test for dich
