@@ -104,5 +104,3 @@ const arr1 = ["This ", "is "];
 const arr2 = ["Cool "];
 const totalArray = [...arr1, ...arr2];
 console.log(totalArray);
-
-// in objects soon
