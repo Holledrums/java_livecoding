@@ -83,5 +83,8 @@ const vowelCount = (str) => {
 };
 console.log(vowelCount("hello"));
 console.log(vowelCount("fbw"));
+<<<<<<< HEAD
 
 // this is test for Holger
+=======
+>>>>>>> 51a9cc0a7724b6e1e3b8b1cc923921ddf14322f8
