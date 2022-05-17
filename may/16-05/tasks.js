@@ -47,17 +47,26 @@ console.log(objToArray({ a: 1, b: 2, c: 3 }));
 // 20 -> 10100
 // 10-> 1010
 // 44-> 101100
-const binary = (num) => num.toString(2);
+const toBinary = (num) => num.toString(2);
 // Morgen 🫣
-const binary2 = (num) => {
+const toDecimal = (num) => {
   return parseInt(num, 2);
 };
-console.log(binary(20));
-console.log(binary(10));
-console.log(binary2(44));
+console.log(toBinary(20));
+console.log(toBinary(10));
+console.log(toDecimal(101100));
 
 // A pandigital number contains all digits (0-9) at least once. Write a function that takes an integer, returning true if the integer is pandigital, and false otherwise.
 // isPandigital(0123456789) -> true
-// isPandigital(0126789) -> fasle
+// isPandigital(126789) -> fasle
 // isPandigital(987654321100000007777) -> true
 // isPandigital(45362718905) -> true
+
+const isPandigital = (num) => {
+  let numToArr = num.toString().split("").sort();
+  let filteredArr = numToArr.filter((el, i) => numToArr.indexOf(el) == i);
+  return filteredArr.join("") == "0123456789";
+};
+console.log(isPandigital(45362718905));
+console.log(isPandigital(987654321100000007777));
+console.log(isPandigital(126789));
