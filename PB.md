@@ -6,7 +6,7 @@ Here you can find all the links to materials related to the Programming Basic mo
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
 | [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
 | [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
-| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) | [10.05.](#1005) | [11.05.](#1105) | [12.05.](#1205) |                 |                |                |
+| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) | [10.05.](#1005) | [11.05.](#1105) | [12.05.](#1205) | [16.05.](#1605) |                |                |
 
 ---
 ### March
@@ -144,4 +144,9 @@ Advanced Array methods: map(), filter(), fill(), sort()
 #### 12.05.
 [to material](./may/12-05/index.js)\
 [to lastTest](./may/12-05/lastTest.js)
-> Classes: Creating subclasses with `extends` and `super()`. Create an object from two arrays using reduce() method,
+> Classes: Creating subclasses with `extends` and `super()`. Create an object from two arrays using reduce() method.
+
+#### 16.05.
+[to material](./may/16-05/index.js)\
+[to tasks](./may/16-05/tasks.js)
+> Overview: Closure. Destructuring objects as function parameters. Self-Invoking Anonymous Function(SIAF). Immediately-Invoked Function Expression(IIFE). Constructor function. Classes. Spread operator. 
