@@ -63,17 +63,23 @@ function deepClone(val) {
   }
   // object
   if (typeof val == "object") {
-    return Object.keys(val)
+    return Object.keys(val) // ["id","name"]
       .map((key) => {
-        return { [key]: deepClone(val[key]) };
-      })
+        return { [key]: deepClone(val[key]) }; // [{id: deedClone(33)},{name: deepCone("Zain")} ]
+      }) // [{},{},{},{}]
       .reduce((acc, cur) => Object.assign(acc, cur), {});
   }
-
   // all other val
   return val;
 }
 
 const newCarDeepClone = deepClone(car);
+const newTextDeepClone = deepClone("Hi");
+const newArrDeepClone = deepClone(["this", "is"]);
+
+const newObjDeepClone = deepClone({ id: 33, name: "Zain" });
+const newBoolDeepClone = deepClone(true);
+
+console.log(newTextDeepClone);
 newCarDeepClone.op.dash = "cool wood";
-console.log(car);
+console.log(newBoolDeepClone);

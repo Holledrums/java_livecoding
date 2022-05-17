@@ -48,7 +48,7 @@ console.log(objToArray({ a: 1, b: 2, c: 3 }));
 // 10-> 1010
 // 44-> 101100
 const toBinary = (num) => num.toString(2);
-// Morgen 🫣
+
 const toDecimal = (num) => {
   return parseInt(num, 2);
 };
@@ -63,10 +63,14 @@ console.log(toDecimal(101100));
 // isPandigital(45362718905) -> true
 
 const isPandigital = (num) => {
-  let numToArr = num.toString().split("").sort();
-  let filteredArr = numToArr.filter((el, i) => numToArr.indexOf(el) == i);
+  // 4533362718905
+  // [ 4,5,3,3,3,6,2,7,1,8,9,0,5]
+  //                                                  0 1 2 3 4 5 6 7 8 9
+  let numToArr = num.toString().split("").sort(); // [0,1,2,3,3,3,4,5,6,7,8,9]
+  let filteredArr = numToArr.filter((ele, i) => numToArr.indexOf(ele) == i);
+  // [0,1,2,3,4,5,6,7,8,9]
   return filteredArr.join("") == "0123456789";
 };
-console.log(isPandigital(45362718905));
+console.log(isPandigital(5362718905));
 console.log(isPandigital(987654321100000007777));
 console.log(isPandigital(126789));
