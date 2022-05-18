@@ -1,3 +1,6 @@
 const axios = require("axios");
 
-axios.get("https://www.google.com/").then((res) => console.log(res));
+axios
+  .get("https://jsonplaceholder.typicode.com/todos/1")
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
