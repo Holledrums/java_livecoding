@@ -1,0 +1,14 @@
+{
+  "name": "18-05",
+  "version": "1.0.0",
+  "description": "```cmd npm init -y echo \"node_modules/\" > .gitignore npm i dotenv axios mkdir src touch config.js src/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

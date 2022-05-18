@@ -3,7 +3,7 @@
 ```cmd
 npm init -y
 echo "node_modules/" > .gitignore
-npm i dotenv
+npm i dotenv axios
 mkdir src
 touch config.js src/index.js
 
