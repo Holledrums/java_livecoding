@@ -1,2 +1,3 @@
-// API
-// Applications Programming Interface
+const axios = require("axios");
+
+axios.get("https://www.google.com/").then((res) => console.log(res));
