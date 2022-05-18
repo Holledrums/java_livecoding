@@ -1,17 +1,26 @@
 // 1. Key Pair Values
 // Create an object called "profileData". Add four key pair values to the object: name, surname, age and city.
+const myData = {
+  name: "Hadi",
+  surname: "Nsreeny",
+  city: "Berlin",
+  age: 32,
+};
+
 // 2. Object to Array
 // Convert an object into a nested array of key pair values. Look the example below.
 // Given Object
 
-// myObj = {
-//     "1": 10,
-//     "2": 20,
-//     "3": 30
-// }
+myObj = {
+  1: 10,
+  2: 20,
+  3: 30,
+};
 // Expected Output:
 
 // [["1", 10], ["2", 20], ["3", 30]]
+const objToArr = (obj) => Object.entries(obj);
+console.log(objToArr(myObj));
 // Arrays
 // 1. Data Manipulation
 // Create a function named "convertArrayData". Use array methods to manipulate the data the array below. The first two items in the array should switch positions and the third item should be replaced by a new item. Change the data to get the result below. Print your solution to the console.
@@ -21,16 +30,21 @@
 // Expected output
 
 // ["tea", "coffee", "milk"];
-// 2. Create Grid
-// Create a function called "createGrid", which returns a grid of a 2D array by accepting two arguments: size (which determines the number of nested arrays and the number of elements in each nested array) and char (which determines the characters in each nested array). Print your solution to the console.
-// Create Grid Function Call
+const convertArrayData = (arr) => {
+  arr.pop();
+  let reversedArr = arr.reverse();
+  reversedArr.push("milk");
+  return reversedArr;
+  //   let newArr = arr.slice(1, 2);
+  //   console.log(newArr);
+  //   newArr.push(arr[0]);
+  //   console.log(newArr);
+  //   newArr.push("milk");
+  //   console.log(newArr);
+  //   return newArr;
+};
+console.log(convertArrayData(["coffee", "tea", "juice"]));
 
-// createGrid(3, "*")
-// Expected Output
-
-// [["*", "*", "*"],
-//  ["*", "*", "*"],
-//  ["*", "*", "*"]]
 // 3. Word Converter
 // Given an array of words, create a function named "wordConverter" which uses an array method to add "er" to the end of each string in the array. Look at the expected output below. Important: Do not use a loop to complete this task. Print your solution to the console.
 // Array of words
@@ -40,38 +54,42 @@
 
 // ["smarter", "kinder",
 // "sweeter", "smaller", "clearer"]
+
+const wordConverter = (arr, str) => arr.map((ele) => ele + str);
+
+console.log(wordConverter(["smart", "kind", "sweet", "small", "clear"], "er"));
 // 4. Hour Calculation
 // Create a function called "calculateHours" which calculate how many hours (total) this person worked in the week based on the data structure hourTracking below. Note: start is always morning time, end is always afternoon. Print your solution to the console.
 // Working Hours
 
-// const hourTracking = [
-//       { day: 'Monday', start: 8, end: 17},
-//       { day: 'Tuesday', start: 9, end: 15},
-//       { day: 'Wednesday', start: 10, end: 18},
-//       { day: 'Thursday', start: 7, end: 14},
-//       { day: 'Friday', start: 6, end: 12},
-//     ];
+const hourTracking = [
+  { day: "Monday", start: 8, end: 17 },
+  { day: "Tuesday", start: 9, end: 15 },
+  { day: "Wednesday", start: 10, end: 18 },
+  { day: "Thursday", start: 7, end: 14 },
+  { day: "Friday", start: 6, end: 12 },
+];
 // Expected Output
 
+const calculateHours = (arrOfOjb) =>
+  arrOfOjb.reduce((total, day) => {
+    return (total += day.end - day.start);
+  }, 0);
+console.log(calculateHours(hourTracking));
 // 36
-// Classes
-// Create a blueprint for a course at DCI - using the class syntax in javascript. The class should be named "Course" The class should contain who the teacher is, whether the group is learning marketing or web development and the number of students taking the course.
-// The class should also have a method named "spaceNeeded" that checks how big a classroom should be depending on the number of students taking the course: 1 student = 2m². E.g. If a course has 10 students, then print: "The classroom should be 20m².". Print your solution to the console.
-// Create a method named "details" to print all the information of the course: "This is a web development course taught by John Smith. There are 10 students taking the course.". Print your solution to the console.
-// Note: Please use the phrases found in the instructions above and just change the output depending on the teacher, course, number of students etc.
-// Expected Output
-
-// course.spaceNeeded();
-// `The classroom should be 44m².`
-
-// course.details();
-// `This is a web development course taught by John. There are 22 students taking the course.`
-// Problem Solving
-// 1. Format your string
-// Write function named "capitalizeFirstLetter" that accepts a string as an argument. The function should convert the first character of each word to uppercase. Example the quick brown fox → The Quick Brown Fox. Print your solution to the console.
-// Expected Output
 
 // capitalizeFirstLetter("hey there"); → `Hey There`
+
+const capitalizeFirstLetter = (str) =>
+  str
+    .toString()
+    .split(" ")
+    .map((ele) => ele[0].toUpperCase() + ele.slice(1).toLowerCase())
+    .join(" ");
+
+console.log(capitalizeFirstLetter("hey there"));
+console.log(capitalizeFirstLetter(true));
+
 // 2. Validation
 // Look at the unit tests for validating a pin. Create a function named "validPin" that fulfills the requirements of the tests.
 // Requirements:
