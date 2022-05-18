@@ -2,18 +2,18 @@
 Here you can find all the links to materials related to the Programming Basic module.
 ## Fast navigation:
 
-| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           | day-10         | day-11         |
-|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|----------------|
-| [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                |                |
-| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704) | [28.04](#2804) |
-| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) | [10.05.](#1005) | [11.05.](#1105) | [12.05.](#1205) | [16.05.](#1605) |                |                |
+| Month           | day-1           | day-2           | day-3           | day-4           | day-5           | day-6           | day-7           | day-8           | day-9           | day-10          | day-11         |
+|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|
+| [March](#march) | [21.03.](#2103) | [22.03.](#2203) | [23.03.](#2303) | [24.03.](#2403) | [28.03.](#2803) | [29.03.](#2903) | [30.03.](#3003) | [31.03.](#3103) |                 |                 |                |
+| [April](#april) | [04.04.](#0404) | [05.04.](#0504) | [06.04.](#0604) | [07.04.](#0704) | [19.04.](#1904) | [20.04.](#2004) | [21.04.](#2104) | [25.04.](#2504) | [26.04.](#2604) | [27.04](#2704)  | [28.04](#2804) |
+| [May](#may)     | [02.05.](#0205) | [03.05.](#0305) | [04.05.](#0405) | [05.05.](#0505) | [09.05.](#0905) | [10.05.](#1005) | [11.05.](#1105) | [12.05.](#1205) | [16.05.](#1605) | [17.05.](#1705) |                |
 
 ---
 ### March
-#### 21.03. 
+#### 21.03.
 [to material](./mar/21-03/index.js)
 > What is a programming language? Install and use nodemon. What is node.js and ECMAScript? Keyboard characters in German and English. Arguments in js. Data types(number, boolean, string, object, null, undefined). Variables(let, var). Definition of statement. Comments(//, /**/). camelCase vs snake_case.
- 
+
 #### 22.03.
 [to material](./mar/22-03/index.js)
 > String expressions("". '', concatenation). Mathematical expressions(+,-,*,/,%). Constants (const). String bracket notation. string.length(). String Methods: string.substring(), string.toUpperCase(), string.toLowerCase(), string.includes(), string.trim(). Variable reassignment:(=, +=, -=). Counting iterations(++, --).
@@ -57,7 +57,7 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 [to tasks](./april/06-04/tasks.js)
 > Exercises in functions, array methods, string methods, and for-loops.
 
-#### 07.04. 
+#### 07.04.
 [to tasks](./april/07-04/tasks.js)\
 [to tasks-extra](./april/07-04/salem/tasks-extra.js)\
 [to math-random](./april/07-04/salem/math-random.js)\
@@ -68,11 +68,11 @@ Invoke the function AKA function call (Funktion aufrufen). Call Stack (Der Aufru
 [to numbers](./april/07-04/thomas/numbers.js)
 > Continue with the Function exercises. Review the topic of function and answer questions about it. Solve additional exercises. Explanation on the topic "Rounding-off and Rounding-up using Math.random(), Math.floor(), Math.ceil() " with an exercise. Working on the GitHub profile.
 
-#### 19.04. 
+#### 19.04.
 [to salem-tasks-extra](./april/19-04/salem-tasks-extra.js)
 > Exercises on previous topics in JavaScript and general review.
 
-#### 20.04. 
+#### 20.04.
 [to material](./april/20-04/index.js)\
 [to tasks](./april/20-04/tasks.js)
 > Data structure: Objects: Property definition, accessing properties with bracket notation, accessing properties with dot notation, adding a new property to an object, modifying the value of a property, deleting a property of an object. Object Scope: Methods definition, using methods, object literal context method `this`. Object methods: Object.keys(), Object.values(), Object.assign(), Object.seal(), Object.isSealed()
@@ -106,7 +106,7 @@ Advanced Array methods: map(), filter(), fill(), sort()
 #### 02.05.
 [to material](./may/02-05/index.js)\
 [to tasks](./may/02-05/tasks.js)
-> Overview: (let, const, var), ternary operator, strings, if...else statement. switch statement. for statement: continue, breack. 
+> Overview: (let, const, var), ternary operator, strings, if...else statement. switch statement. for statement: continue, breack.
 
 #### 03.05.
 [to material](./may/03-05/index.js)\
@@ -149,4 +149,9 @@ Advanced Array methods: map(), filter(), fill(), sort()
 #### 16.05.
 [to material](./may/16-05/index.js)\
 [to tasks](./may/16-05/tasks.js)
-> Overview: Closure. Destructuring objects as function parameters. Self-Invoking Anonymous Function(SIAF). Immediately-Invoked Function Expression(IIFE). Constructor function. Classes. Spread operator. 
+> Overview: Closure. Destructuring objects as function parameters. Self-Invoking Anonymous Function(SIAF). Immediately-Invoked Function Expression(IIFE). Constructor function. Classes. Spread operator.
+
+#### 17.05.
+[to material](./may/17-05/index.js)\
+[to tasks](./may/17-05/tasks.js)
+> Clones vs. references. Cloning arrays. Cloning Objects. Shallow copy vs. deep copy. Deep copy using recursion.
